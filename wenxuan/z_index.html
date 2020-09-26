@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文轩购书卡介绍</title>
+  <link rel="shortcut icon" href="https://pic.liesio.com/2020/09/16/e7c4e908c32e8.ico">
+  <link rel="bookmark" href="https://pic.liesio.com/2020/09/16/e7c4e908c32e8.ico">
+  <link rel="stylesheet" href="./css/z_index.css">
+  <link rel="stylesheet" href="./css/c-head.css">
+  <link rel="stylesheet" href="./font/iconfont.css">
+  <script src='./js/c_content.js'></script>
+</head>
+
+<body>
+  <div class="c_layout">
+    <header class="c_top">
+      <!-- 顶部导航 -->
+      <div class="w_top_w box">
+        <div class="c_top_n c_position" id="c_top_1">
+          <div class="c_top_nav c_content">
+            <ul class="c_link_left">
+              <li id='w_user_welcom'>欢迎光临文轩网！</li>
+              <li>
+                <a href="./b_login.html" id='w_go' style="float: left;">请<span>&nbsp;&nbsp;登录</span></a>
+                <a href="./b_sign-up.html" id="w_sign" style="float: left;">免费注册</a>
+                <a href="./js_myWenxuan.html" id='w_username' style="float: left;margin-right: 20px;"></a>
+                <a href="javascript:void(0)" id='w_quit'>退出登录</a>
+              </li>
+            </ul>
+            <ul class="c_link_right">
+              <li class="c_li_1">
+                <a href="js_myWenxuan.html">
+                  <span>我的文轩</span>
+                  <i class="iconfont icon-jiantou"></i>
+                </a>
+                <div class="c_pop">
+                  <ul class="c_pop_item">
+                    <li class="c_item_list">
+                      <a href="js_myWenxuan.html">我的订单</a>
+                    </li>
+                     <li class="c_item_list">
+                      <a href="./b_account.html" id="w_count">账号设置</a>
+                    </li>                    
+                  </ul>
+                </div>
+              </li>
+              <li class="c_li_2">
+                <a href="./z_index.html">
+                  <span>企业采购</span>
+                </a>
+              </li>
+              <li class="c_li_3">
+                <a href="#">
+                  <span>客户服务</span>
+                  <i class="iconfont icon-jiantou"></i>
+                </a>
+                <div class="c_pop">
+                  <ul class="c_pop_item">
+                    <li class="c_item_list">
+                      <a href="./w_robat.html">在线客服</a>
+                    </li>
+                    <li class="c_item_list">
+                      <a href="./y_help.html">帮助中心</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="c-li_4">
+                <a href="#">
+                  <span>手机文轩</span>
+                  <i class="iconfont icon-jiantou"></i>
+                </a>
+                <div class="c_pop c_pop_s">
+                  <div class="c_pop_item">
+                    <img src="https://static.winxuancdn.com/css/v2/images/m143.jpg" alt="">
+                    <a href="#">扫一扫&nbsp;&nbsp;文轩手机购物></a>
+                  </div>
+                  <div class="c_pop_item">
+                    <img src="https://static.winxuancdn.com/css/v2/images/code2.png" alt="">
+                    <a href="#">电子书&nbsp;&nbsp;客户端></a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- logo + 搜索框 -->
+      <div class="c_head_content" id="c_nav">
+        <div class="c_head_log c_content">
+          <!-- logo -->
+          <div class="c_log_1">
+            <a href="#">
+              <img src="https://static.winxuancdn.com/css/v2/images/logo.png" alt="">
+            </a>
+          </div>
+          <!-- 搜索框 -->
+          <div class="c_logo_2" style="height: 40px;width: 600px;" id="c_from">
+            <form action="https://search.winxuan.com/search" style="height: 40px;" method="get">
+              <div class="c_search-b">
+                <img src="https://static.winxuancdn.com/cms/assets/images/winxuanhome/index/index-search-icon.png"
+                  alt="">
+                <input id="ipt" type="text" autocomplete="off" placeholder="抖音营销" data-array="活着|雪国之劫|抖音营销|">
+                <button id="btn">搜索</button>
+                <div class="k_booklist">
+                </div>
+              </div>
+            </form>
+            <div class="c_logo_keywords" id="c_key_b">
+              热搜：
+              <a href="#">
+                <span>
+                  九月领券区
+                  <img src="https://static.winxuancdn.com/topic/subject/201605/pc-pl/hot-045.gif" alt="">
+                </span>
+              </a>
+              <span>|</span>
+              <a href="#">
+                <span>
+                  习近平谈治国理政3
+                  <img src="https://static.winxuancdn.com/topic/subject/201605/pc-pl/hot-045.gif" alt="">
+                </span>
+              </a>
+              <span>|</span>
+              <a href="#">
+                <span>
+                  9.9专区
+                  <img src="https://static.winxuancdn.com/topic/subject/201605/pc-pl/hot-045.gif" alt="">
+                </span>
+              </a>
+              <span>|</span>
+              <a href="#">
+                <span>
+                  今日秒杀
+                  <img src="https://static.winxuancdn.com/topic/subject/201605/pc-pl/hot-045.gif" alt="">
+                </span>
+              </a>
+              <span>|</span>
+              <a href="#">
+                <span>
+                  曾国藩
+                  <img src="https://static.winxuancdn.com/topic/subject/201605/pc-pl/hot-045.gif" alt="">
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="c_logo_3" id="c_logo_3">
+            <a href="./b_car.html">
+              <div class="c_logo_user">
+                <i class="iconfont icon-gouwuchezhengpin"></i>
+                <label for="">购物车</label>
+                <div class="c_master_pop">
+                  2
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 分页导航 -->
+      <div class="w_top_menu2">
+          <div class="w_top_menu2_wrap">
+            <div class="w_top_left2 fl">
+              <h2 class="fl w_top_left2_h">全部商品分类</h2>
+              <i class="iconfont icon-jiantou"></i>
+              <div class="w_sub_wrap">
+                <div class="w_sub_item">
+                  <div class="w_item_title">
+                    <h3>
+                      <a href="" class="w_item_aa">童书/育儿</a>
+                    </h3>
+                    <div class="w_item_content">
+                      <a href="" title="幼儿绘本">幼儿绘本</a>
+                      <a href="" title="幼儿启蒙">幼儿启蒙</a>
+                      <a href="" title="国学启蒙">国学启蒙</a>
+                      <a href="" title="趣味童书">趣味童书</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="w_sub_item">
+                  <div class="w_item_title">
+                    <h3>
+                      <a href="" class="w_item_aa">文学/小说</a>
+                    </h3>
+                    <div class="w_item_content">
+                      <a href="" title="幼儿绘本">现当代文学</a>
+                      <a href="" title="幼儿启蒙">民间文学</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="w_sub_item">
+                  <div class="w_item_title">
+                    <h3>
+                      <a href="" class="w_item_aa">社科/经管</a>                 
+                    </h3>
+                    <div class="w_item_content">
+                      <a href="" title="幼儿绘本">大众经济读物</a>
+                      <a href="" title="幼儿启蒙">经济理论、法规</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="w_sub_item">
+                  <div class="w_item_title">
+                    <h3>
+                      <a href="" class="w_item_aa">行业/职业</a>
+                    </h3>
+                    <div class="w_item_content">
+                      <a href="" title="幼儿绘本">编程语言</a>
+                      <a href="" title="幼儿启蒙">数据库</a>
+                      <a href="" title="国学启蒙">网络技术</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="w_sub_item">
+                  <div class="w_item_title">
+                    <h3>
+                      <a href="" class="w_item_aa">教材/教辅</a>
+                    </h3>
+                    <div class="w_item_content">
+                      <a href="" title="幼儿绘本">小学教材</a>
+                      <a href="" title="幼儿启蒙">初中教材</a>
+                      <a href="" title="国学启蒙">高中教材</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="w_sub_item">
+                  <div class="w_item_title">
+                    <h3>
+                      <a href="" class="w_item_aa">生活/艺术</a>                
+                    </h3>
+                    <div class="w_item_content">
+                      <a href="" title="幼儿绘本">成功学</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="w_sub_item">
+                  <div class="w_item_title">
+                    <h3>
+                      <a href="" class="w_item_aa">音像/艺术</a>                 
+                    </h3>
+                    <div class="w_item_content">
+                      <a href="" title="幼儿绘本">教学音带</a>
+                      <a href="" title="幼儿绘本">教学CD</a>
+                      <a href="" title="幼儿绘本">教学VCD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w_top_right2 fl">
+              <ul class="w_top_list2 fl">
+                <li class="w_top_item2 active"><a href='#'>图书畅销榜</a></li>
+                <li class="w_top_item2"><a href='#'>新书热卖榜</a></li>
+                <li class="w_top_item2"><a href='#'>童书绘本</a></li>
+                <li class="w_top_item2"><a href='#'>小说文学</a></li>
+                <li class="w_top_item2"><a href='#'>社科经营</a></li>
+                <li class="w_top_item2"><a href='#'>网络科技</a></li>
+                <li class="w_top_item2"><a href='#'>医学</a></li>
+                <li class="w_top_item2"><a href='#'>教材教辅</a></li>
+                <li class="w_top_item2"><a href='#'>生活艺术</a></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </header>
+  </div>
+  <!-- 中心 -->
+  <div class="z_content">
+    <img src="http://static.winxuancdn.com/topic/subject/201910/jf/2.jpg" alt="" class="z_img">
+    <div class="z_card-list" style="height: 55px;">
+      <div class="z_card_a">
+        <!-- <span class="z_card-left"></span> -->
+        <span class="z_card">电子购书卡</span>
+        <span class="z_money">「可自定义金额」</span>
+        <div class="z_del">咨询热线：
+          <s>028-83157118</s>
+        </div>
+      </div>
+    </div>
+    <div class="z_card-list" style="height: 55px;">
+      <div class="z_card_a">
+        <!-- <span class="z_card-left"></span> -->
+        <span class="z_card">实物购书卡</span>
+        <span class="z_money">「可自定义金额」</span>
+        <div class="z_del">咨询热线：
+          <s>028-83157118</s>
+        </div>
+      </div>
+    </div>
+
+    <div class="z_card-list">
+      <div class="z_card_a">
+        <span class="z_card">购书卡余额查询</span>
+        <div class="z_del">咨询热线：
+          <s>028-83157118</s>
+        </div>
+      </div>
+      <div class="z_card-search">
+        <div class="z_searchbox">
+          <form action="">
+            <input type="text" placeholder="卡号" class="z_input" id="w_card">
+            <input type="text" placeholder="密码" class="z_input" id="w_psd">
+            <input type="button" value="点击查询" class="z_input-search" id="w_btn">
+            <p class="z_search" id="w_info">备注:点击可查询购书卡余额和消费明细</p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="z_card-list">
+      <div class="z_card_a">
+        <span class="z_card">购物卡使用说明</span>
+      </div>
+      <img src="http://static.winxuancdn.com/topic/subject/201902/thk/shuoming.png" alt="" class="z_card-img">
+    </div>
+    <div class="z_card-list">
+      <div class="z_card_a">
+        <span class="z_card">常见问题</span>
+      </div>
+      <div class="z_question">
+        <img src="https://pic.liesio.com/2020/09/17/206d667c23adb.png" alt="" class="z_1">
+        <span class="z_answer">如何购买购书卡？</span>
+      </div>
+      <div class="z_question">
+        <img src="https://pic.liesio.com/2020/09/17/ab8e5def8b73b.png" alt="" class="z_1">
+        <span class="z_answer">请您按照页面提供的联系方式与我们联系，我们会尽快与您联系。</span>
+      </div>
+      <div class="z_question">
+        <img src="https://pic.liesio.com/2020/09/17/206d667c23adb.png" alt="" class="z_1">
+        <span class="z_answer">购买购书卡可以开具发票吗？</span>
+      </div>
+      <div class="z_question">
+        <img src="https://pic.liesio.com/2020/09/17/ab8e5def8b73b.png" alt="" class="z_1">
+        <span class="z_answer">可以，我们会为你提供四川省增值税普通发票。</span>
+      </div>
+      <div class="z_question">
+        <img src="https://pic.liesio.com/2020/09/17/206d667c23adb.png" alt="" class="z_1">
+        <span class="z_answer">如何查询我的购书卡余额？</span>
+      </div>
+      <div class="z_question">
+        <img src="https://pic.liesio.com/2020/09/17/ab8e5def8b73b.png" alt="" class="z_1">
+        <span class="z_answer">进入文轩网后，在"购书卡登录"中即可查询所有已激活的购书卡的余额。</span>
+      </div>
+      <div class="z_question">
+        <img src="https://pic.liesio.com/2020/09/17/206d667c23adb.png" alt="" class="z_1">
+        <span class="z_answer">购书卡都可以买什么商品？有最低购物金额限制吗？</span>
+      </div>
+      <div class="z_question">
+        <img src="https://pic.liesio.com/2020/09/17/ab8e5def8b73b.png" alt="" class="z_1">
+        <span class="z_answer">您可以使用购书卡购买文轩网上的纸质图书；购书卡没有最低购物金额限制。</span>
+      </div>
+      <div class="z_question">
+        <img src="https://pic.liesio.com/2020/09/17/206d667c23adb.png" alt="" class="z_1">
+        <span class="z_answer">购书卡有有效期吗？如何查询购书卡的有效期？</span>
+      </div>
+      <div class="z_question">
+        <img src="https://pic.liesio.com/2020/09/17/ab8e5def8b73b.png" alt="" class="z_1">
+        <span class="z_answer">有，从购书卡发放日起三年内有效。购书卡在激活后方可在 "购书卡登录" 后查询购书卡有效期。</span>
+      </div>
+      <div class="z_question">
+        <img src="https://pic.liesio.com/2020/09/17/206d667c23adb.png" alt="" class="z_1">
+        <span class="z_answer">购书卡可以同优惠券同时使用吗？一次可以使用几张购书卡？</span>
+      </div>
+      <div class="z_question">
+        <img src="https://pic.liesio.com/2020/09/17/ab8e5def8b73b.png" alt="" class="z_1">
+        <span class="z_answer">购书卡可以同优惠券同时使用，一张订单最多只能使用三张购书卡。</span>
+      </div>
+      <div class="z_question">
+        <img src="https://pic.liesio.com/2020/09/17/206d667c23adb.png" alt="" class="z_1">
+        <span class="z_answer">如果我订购商品后办理了退货，支付的款项如何退还给我？</span>
+      </div>
+      <div class="z_question">
+        <img src="https://pic.liesio.com/2020/09/17/ab8e5def8b73b.png" alt="" class="z_1">
+        <span class="z_answer">购书卡支付的货款，款项将退至您的购书卡中，有效期不变；其他支付方式支付的货款原路退回。</span>
+      </div>
+    </div>
+  </div>
+  <div class="z_main-show">
+    <div class="z_show">
+      <img class="z_main-img" src="https://static.winxuancdn.com/css/v2/images/foot-service.png" alt="">
+    </div>
+  </div>
+  <div class="z_main-foot">
+    <div class="z_base-nav">
+      <a href="">关于文轩</a>|
+      <a href="">联系文轩</a>|
+      <a href="">加入文轩</a>|
+      <a href="">合作伙伴</a>
+    </div>
+    <div class="z_base-nav"></div>
+    增值电信业务经营许可证：川B2-20100040 | <a class="z_from" href="">出版物经营许可证</a> | 蜀ICP备11014037号
+    <br>
+    <br>
+    Copyright(C) <a class="z_from" href="">文轩网</a> 2000-2020 版权所有 | 客服热线：400-072-0808
+    <br>
+    <a href="#">
+      <img src="http://static.winxuancdn.com/topic/subject/201605/dy/scgswjlogo.png" alt="">
+    </a>　
+  </div>
+  <!-- 回到顶部 -->
+  <div class="z_backtop">
+    <img src="https://static.winxuancdn.com/images/returntop/topout.jpg" alt="回到顶部">
+  </div>
+  <script src="./js/z_index.js"></script>
+</body>
+
+</html>

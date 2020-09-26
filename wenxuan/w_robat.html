@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>客服</title>
+  <link rel="shortcut icon" href="https://pic.liesio.com/2020/09/16/e7c4e908c32e8.ico">
+  <link rel="bookmark" href="https://pic.liesio.com/2020/09/16/e7c4e908c32e8.ico">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/w_robat.css">
+  <link rel="stylesheet" href="./font/iconfont.css">
+  <script src="./js/axios.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="w_wrap">
+    <div class="w_top">
+      <span class="w_name">四川文轩在线电子商务有限公司</span>
+    </div>
+    <div class="w_body">
+      <div class="w_message" id="w_box">
+        <!-- 别人发过来的消息 -->
+        <!-- <div class="w_send clearfix">
+          <div class="w_msg">
+            <img
+              src="https://ysf.nosdn.127.net/80CB0D8288D8735119C14083F27E6532?imageView&type=png%7CimageView&thumbnail=76y76&axis=5"
+              alt="">
+            <p id="w_rob">你好在不</p>
+          </div>
+        </div> -->
+
+        <!-- 我发的信息 -->
+        <!-- <div class="w_show clearfix">
+          <div class="w_msg">
+            <img src="https://tupian.qqw21.com/article/UploadPic/2020-9/2020922033264548.jpg" alt="">
+            <p id="w_send">你好你好你好</p>
+          </div>
+        </div> -->
+      </div>
+      <div class="w_chat_show_bot">
+        <div class="w_back">
+          <a class="w_back_btn" href="./c_head.html">返回首页</a>
+        </div>
+        <div class="w_chat">
+          <div class="w_img_box">
+            <i class="iconfont icon-xiaolian"></i>
+            <i class="iconfont icon-tupian"></i>
+            <i class="iconfont icon-xianxingtubiao_huabanfuben"></i>
+          </div>
+          <div class="w_chat_box">
+            <textarea name="" cols="30" rows="10" id='w_check' class="w_text"></textarea>
+            <span class="w_enter" id="w_ente">发送</span>
+          </div>
+
+          <div id="w_tip">
+            不能输入空消息
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const w_ente = document.getElementById('w_ente');
+    const w_check = document.getElementById('w_check');
+    const w_box = document.getElementById('w_box');
+    const w_tip = document.getElementById('w_tip')
+    w_ente.onclick = function () {
+      var msg = w_check.value;
+      if (msg != '') {
+        w_tip.style.display='none'
+        var str = '';
+        str = `
+      <div class="w_show clearfix">
+        <div class="w_msg">
+          <img src="https://tupian.qqw21.com/article/UploadPic/2020-9/2020922033264548.jpg" alt="">
+          <p>${msg}</p>
+        </div>
+      </div>
+      `
+        w_box.innerHTML += str;
+        var h = w_box.scrollHeight;
+        w_box.scrollBy(0, h);
+        w_check.value = '';
+        $.get(`http://localhost:3000/ai?key=free&appid=0&msg=${msg}`, function (res) {
+          var receive = res.content;
+          var str2 = '';
+          str2 = `
+        <div class="w_send clearfix">
+          <div class="w_msg">
+            <img
+              src="https://ysf.nosdn.127.net/80CB0D8288D8735119C14083F27E6532?imageView&type=png%7CimageView&thumbnail=76y76&axis=5"
+              alt="">
+            <p>${receive}</p>
+          </div>
+        </div>
+        `,
+            w_box.innerHTML += str2;
+          var h = w_box.scrollHeight;
+          w_box.scrollBy(0, h);
+        })
+      }else{
+        w_tip.style.display='block'
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+</body>
+
+</html>

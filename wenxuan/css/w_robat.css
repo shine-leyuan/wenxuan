@@ -1,0 +1,236 @@
+body {
+  background-color: #babbbf;
+  ;
+}
+
+.w_wrap {
+  width: 826px;
+  height: 760px;
+  background-color: #fff;
+  outline: 1px solid red;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.w_top {
+  background-color: #f60e23;
+  font-size: 16px;
+  color: #fff;
+  height: 47px;
+  line-height: 47px;
+}
+
+.w_name {
+  margin-left: 20px;
+}
+
+.w_msg_send {
+  position: relative;
+  float: left;
+  padding-left: 12px;
+  box-sizing: border-box;
+  padding: 0;
+  white-space: pre-wrap;
+}
+
+.w_body {
+  position: absolute;
+  top: 47px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  zoom: 1;
+  padding: 20px;
+}
+
+.w_send-img {
+  width: 38px;
+  height: 38px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.w_send,
+.w_show {
+  padding-bottom: 15px;
+  height: 45px;
+}
+
+.w_msg>img {
+  width: 40px;
+  float: left;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.w_send .w_msg>p {
+  float: left;
+  margin: 0 20px;
+  padding: 12px;
+  background: #fff;
+  font-size: 14px;
+  position: relative;
+  border-radius: 10px;
+  max-width: 450px;
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+  text-align: left;
+  line-height: 21px;
+}
+
+
+.w_show .w_msg>p {
+  float: left;
+  margin: 0 20px;
+  padding: 12px;
+  font-size: 14px;
+  position: relative;
+  border-radius: 10px;
+  max-width: 450px;
+  box-sizing: border-box;
+  background-color: red;
+  color: #fff;
+  line-height: 21px;
+  text-align: right;
+}
+
+.w_show .w_msg img,
+.w_show .w_msg p,
+.w_show .w_msg {
+  float: right;
+}
+
+.w_show .w_msg img,
+.w_show .w_msg p,
+.w_show .w_msg {
+  float: right;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.w_back {
+  position: absolute;
+  white-space: nowrap;
+  width: 786px;
+  height: 40px;
+  bottom: 220px;
+  line-height: 40px;
+  box-sizing: border-box;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  transition: all 0.5s linear;
+  box-sizing: border-box;
+}
+
+.w_back_btn {
+  cursor: pointer;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  padding: 0 12px;
+  color: #666;
+  background-color: #fff;
+  display: inline-block;
+  opacity: 1;
+  font-size: 12px;
+  vertical-align: middle;
+  text-align: center;
+  width: auto;
+  border-radius: 15px;
+  line-height: 24px;
+  box-sizing: border-box;
+  border: 1px solid #f60e23;
+  margin: 0 3px;
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+  overflow: visible;
+}
+
+.w_img_box .iconfont {
+  font-size: 20px;
+  color: #666;
+  margin-left: 10px;
+}
+
+.w_chat {
+  position: absolute;
+  width: 786px;
+  bottom: 0;
+  height: 220px;
+  overflow: hidden;
+}
+
+.w_img_box {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.w_text {
+  width: 786px;
+  outline: none;
+  border: none;
+  resize: none;
+  box-sizing: border-box;
+  height: 138px;
+  line-height: 16px;
+  padding: 11px 10px;
+  white-space: pre-wrap;
+  font-size: 18px;
+  overflow: auto;
+  line-height: 21px;
+}
+
+.w_message{
+  height: 430px!important;
+  overflow-y: auto;
+}
+
+.w_message::-webkit-scrollbar {
+  display: none;
+}
+
+.w_text::-webkit-scrollbar {
+  display: none;
+}
+
+.w_enter {
+  position: absolute;
+  bottom: 19px;
+  right: 10px;
+  padding: 6px 20px;
+  font-size: 14px;
+  line-height: 14px;
+  background-color: #f60e23;
+  opacity: 0.6;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.w_enter:hover{
+  background-color: #f60e23;
+  opacity: 1;
+}
+
+#w_tip{
+  position: absolute;
+  right: 7px;
+  bottom: 56px;
+  font-size: 14px;
+  color: #333;
+  display: none;
+  transition: all .5s;
+}

@@ -1,0 +1,910 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+a {
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    outline: none;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.y_left {
+    float: left;
+}
+
+.y_right {
+    float: right;
+}
+
+.y_container {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.y_bookNav {
+    padding: 16px 0;
+}
+
+.y_bookNav a {
+    line-height: 14px;
+    padding: 0 6px;
+    color: #666;
+}
+
+.y_bookNav .y_select {
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+}
+
+.address {
+    box-sizing: border-box;
+    width: 140px;
+    height: 24px;
+    padding: 0 18px 0 6px;
+    border: 1px solid #d5d5d5;
+}
+
+
+/* 主题内容 */
+
+.y_hot {
+    width: 208px;
+    background: royalblue;
+}
+
+.y_wrap {
+    display: flex;
+    width: 990px;
+}
+
+.y_img {
+    position: relative;
+    height: 350px;
+    border: 1px solid #e8e8e8;
+    overflow: hidden;
+}
+
+.y_magnifying {
+    width: 350px;
+}
+
+.y_shar {
+    padding-left: 26px;
+}
+
+.y_shar span {
+    margin-top: 5px;
+}
+
+.y_batch {
+    display: block;
+    width: 106px;
+    height: 27px;
+    margin: 20px 0 14px 60px;
+    background: url(https://static.winxuancdn.com/css/v2/images/common-btn.png?20170907) 0 -728px no-repeat;
+}
+
+.y_collect {
+    display: inline-block;
+    width: 86px;
+    height: 27px;
+    margin-left: 32px;
+    background: url(https://static.winxuancdn.com/css/v2/images/common-btn.png?20170907) no-repeat;
+}
+
+.y_tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 81px;
+    height: 79px;
+    background: url('http://static.winxuancdn.com/topic/subject/201405/ads/pro_xsq.png');
+}
+
+.y_news {
+    flex: 1;
+    margin-left: 18px;
+}
+
+.y_news .y_title {
+    padding: 4px 0 18px 0;
+    border-bottom: 1px dotted #e7e7e7;
+}
+
+.y_news h1 {
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+
+.y_news p {
+    font-size: 15px;
+    color: red;
+}
+
+
+/* 图书详情 */
+
+.y_attr {
+    width: 100%;
+    border-bottom: 1px dotted #e7e7e7;
+}
+
+.y_attr dl {
+    display: flex;
+    line-height: 29px;
+}
+
+.y_attr dt {
+    width: 76px;
+    font-size: 12px;
+    padding-right: 8px;
+    text-align-last: justify;
+}
+
+.y_attr .y_price {
+    font-size: 14px;
+}
+
+.y_sellling strong,
+.y_head_r strong {
+    font-size: 24px;
+    font-weight: 700;
+    color: #e4393d;
+}
+
+.y_sellling span,
+.y_head_r span {
+    font-size: 13px;
+    color: #e4393d;
+}
+
+.y_gps span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.y_gps a:hover,
+.y_class a:hover {
+    color: #e4393d;
+    text-decoration: underline;
+}
+
+.y_author a:hover {
+    text-decoration: underline;
+}
+
+.y_class .y_page {
+    color: #e4393d;
+}
+
+.y_author a,
+.y_class a,
+.y_gps a,
+.lines,
+.y_show_all,
+.y_content .select,
+.y_hiden_all {
+    color: #1D66B2;
+}
+
+.y_class span {
+    margin: 0 4px;
+}
+
+.y_author dd {
+    font-weight: 700;
+    color: #e4393d;
+}
+
+.y_author a,
+.y_gps b {
+    font-weight: normal;
+}
+
+.y_number input {
+    width: 36px;
+    height: 22px;
+    margin: 0 4px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.y_number a {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    border: 1px solid #d5d5d5;
+}
+
+.y_purchase a {
+    display: inline-block;
+    width: 172px;
+    height: 37px;
+    margin: 18px 0;
+    background: url(https://static.winxuancdn.com/css/v2/images/common-btn.png?20170907) 0 -38px no-repeat;
+}
+
+.y_service .cut {
+    padding: 0 10px;
+    color: #dddddd;
+}
+
+.y_service a:hover,
+.y_show_all:hover,
+.y_hiden_all:hover {
+    text-decoration: underline;
+}
+
+
+/* 图文详情 */
+
+.y_main_top {
+    display: flex;
+    flex-wrap: wrap;
+    width: 990px;
+    border: 1px solid #f3f3f3;
+}
+
+.y_head {
+    width: 100%;
+}
+
+.y_head_l a {
+    line-height: 36px;
+    padding: 8px 30px;
+    font-size: 14px;
+}
+
+.y_head_l a.select {
+    border: 1px solid #e8e8e8;
+    border-bottom: none;
+    border-top: 2px solid #e20000;
+    background: #f9f9f9;
+}
+
+.spirit {
+    margin-top: 6px;
+}
+
+.y_head_r a {
+    display: inline-block;
+    width: 143px;
+    height: 23px;
+    background: url(https://static.winxuancdn.com/css/v2/images/common-btn.png?20170907) 0 -350px no-repeat;
+}
+
+.fast {
+    width: 100%;
+    padding: 0 30px;
+    border: 1px solid #e8e8e8;
+}
+
+.fast a {
+    display: inline-block;
+    margin-right: 10px;
+    padding-left: 20px;
+    background: url(https://static.winxuancdn.com/css/v2/images/repeat-bg.png) 2px -171px no-repeat;
+}
+
+.fast a,
+.arrive {
+    line-height: 28px;
+}
+
+.fast a:hover {
+    color: #e4393d;
+    background: url(https://static.winxuancdn.com/css/v2/images/repeat-bg.png) 2px -229px no-repeat;
+}
+
+.y_content {
+    display: flex;
+    width: 100%;
+    padding: 18px 30px;
+    background: #f9f9f9;
+    border: 1px solid #e8e8e8;
+}
+
+.y_content ul {
+    width: 33.3%;
+}
+
+.y_content li {
+    line-height: 26px;
+}
+
+.y_content span {
+    display: inline-block;
+    padding-right: 6px;
+    width: 58px;
+    text-align-last: justify;
+}
+
+.y_navBnner {
+    display: flex;
+    margin: 10px 0;
+}
+
+.y_navBnner a {
+    width: 323px;
+    height: 150px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.y_navBnner img {
+    width: 100%;
+}
+
+.y_head .y_bottom {
+    padding: 20px;
+}
+
+.y_bottom {
+    line-height: 20px;
+}
+
+
+/* 放大镜 */
+
+.y_magnifying {
+    position: relative;
+}
+
+.y_bigimg {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 350px;
+    width: 480px;
+    height: 480px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.y_wrap_box {
+    display: none;
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    background: rgba(255, 0, 0, 0.2);
+}
+
+.arrive {
+    display: inline-block;
+    width: 62px;
+    height: 28px;
+    background: url(https://static.winxuancdn.com/css/v2/images/common-bg.png) -295px -83px no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.y_head_l {
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.y_head_n {
+    border-bottom: none;
+}
+
+.etc {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+.y_show_all {
+    display: inline-block;
+    margin: 20px;
+}
+
+.y_hiden_all {
+    display: inline-block;
+    margin: 20px 0;
+}
+
+#catalog .y_bottoms {
+    height: 180px;
+    overflow: hidden;
+}
+
+
+/* 提示框 */
+
+.tips {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tip_cont {
+    width: 360px;
+    height: 140px;
+}
+
+.tip_title {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 10px;
+    background: url(https://static.winxuancdn.com/css2/images/detail-icon.png) repeat 0 -214px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.tip_title em {
+    font-style: normal;
+}
+
+.tip_title span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: 11px;
+    background: url(https://static.winxuancdn.com/css2/images/detail-bg.png) no-repeat -113px -118px;
+}
+
+.tip_add {
+    width: 330px;
+    height: 38px;
+    margin: 10px auto;
+    line-height: 38px;
+    font-size: 16px;
+    color: #009900;
+    background: #fefde1;
+    text-align: center;
+}
+
+.tip_mycart {
+    display: inline-block;
+    width: 109px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: url(https://static.winxuancdn.com/css2/images/detail-bg.png) repeat 0 -138px;
+    color: #fff;
+}
+
+.tip_purchase {
+    display: inline-block;
+    width: 84px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: url(https://static.winxuancdn.com/css2/images/detail-bg.png) repeat 0 -165px;
+    color: #7e7e8c;
+}
+
+.tip_buts {
+    padding: 0 70px;
+}
+/* 点击加入收藏 */
+
+.y_collection {
+    display: none;
+    position: fixed;
+    top: 34%;
+    left: 350px;
+    box-sizing: border-box;
+    width: 440px;
+    height: 110px;
+    padding: 4px;
+    background: #e9e9e9;
+}
+
+.y_colle_top {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 6px;
+    background: url(https://static.winxuancdn.com/css2/images/detail-icon.png) repeat-x 0 -216px;
+    color: #fff;
+}
+
+.y_colle_top a {
+    color: #fff;
+}
+
+.y_colle_bottom {
+    background: #fff;
+}
+
+.y_answer {
+    height: 72px;
+    background: url(https://static.winxuancdn.com/css/images/success.gif) no-repeat 30px 16px;
+    margin: 0 10px;
+    padding: 20px 10px 20px 80px;
+}
+
+.y_answer a {
+    color: #1d66b2;
+}
+
+.y_answer p {
+    margin-bottom: 4px;
+    color: #000;
+}
+
+/* kouqi */
+
+.k_discuss,
+.k_goodinfo,
+.k_discuss_type {
+    width: 990px;
+    min-width: 990px;
+    margin: 10px auto;
+}
+
+.k_discuss_top,
+.k_discuss_type_top,
+.k_good_top {
+    width: 100%;
+    border: 1px solid #f3f3f3;
+    border-bottom: 1px solid #cfcfcf;
+    height: 26px;
+    position: relative;
+    font-size: 0;
+}
+
+.k_tab_item {
+    height: 26px;
+    line-height: 26px;
+    width: 121px;
+    text-align: center;
+    display: inline-block;
+    color: #666;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+}
+
+.k_tab_item::after {
+    content: '';
+    width: 1px;
+    height: 17px;
+    background: #e8e8e8;
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    right: -1px;
+}
+
+.k_added {
+    width: 156px;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    border-top: 3px solid #e20000;
+    background: #f9f9f9;
+    margin-top: -3px;
+    text-align: left;
+    padding-left: 35px;
+}
+
+.k_count {
+    position: absolute;
+    top: 4px;
+    left: 220px;
+    font-size: 12px;
+    color: #1a66b3;
+}
+
+.k_discuss_content {
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    border-top: 0;
+    background: #f9f9f9;
+    padding: 20px 20px 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.k_cont_left {
+    width: 86px;
+    margin-right: 20px;
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+}
+
+.k_cont_left>b {
+    color: #f58b1a;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.k_cont_star {
+    padding-right: 48px;
+    border-right: 1px dashed #e7e7e7;
+    width: 264px;
+}
+
+.k_star_item span {
+    vertical-align: middle;
+    font-size: 12px;
+    color: #666;
+}
+
+.k_starbg {
+    display: inline-block;
+    width: 90px;
+    height: 15px;
+    background: url('https://static.winxuancdn.com/css/v2/images/common-bg.png') no-repeat;
+}
+
+.k_starbg1 {
+    background-position: 0 -64px;
+}
+
+.k_starbg2 {
+    background-position: 0 -81px;
+}
+
+.k_starbg3 {
+    background-position: 0 -98px;
+}
+
+.k_starbg4 {
+    background-position: 0 -116px;
+}
+
+.k_starbg5 {
+    background-position: 0 -134px;
+}
+
+.k_starline {
+    width: 110px;
+    height: 5px;
+    display: inline-block;
+    border: 1px solid #ffdb73;
+    margin: 0 10px;
+}
+
+.k_my_discuss {
+    margin-left: 40px;
+    color: #666;
+    font-size: 12px;
+}
+
+.k_mystar {
+    padding: 5px 0;
+}
+
+.k_mystar i {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    font-style: normal;
+    vertical-align: middle;
+}
+
+.k_mystar span {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    display: inline-block;
+    background: url('https://static.winxuancdn.com/css/v2/images/common-bg.png') no-repeat -190px -32px;
+}
+
+.k_write {
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 24px;
+    font-size: 14px;
+    color: #666;
+}
+
+.k_text,
+.k_sorce {
+    font-size: 12px;
+    color: #666;
+}
+
+.k_sorce {
+    color: #005eaa;
+}
+
+.k_sorce:hover {
+    text-decoration: underline;
+}
+
+.k_discuss_type_top .k_added {
+    padding-left: 40px;
+}
+
+.k_discuss_type_top .k_tab_item {
+    width: 155px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.k_type_content,
+.k_good_content {
+    width: 100%;
+    line-height: 20px;
+    border: 1px solid #e8e8e8;
+    border-top: 0;
+    background: #f9f9f9;
+    padding: 20px 20px 15px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #666;
+}
+
+.k_type_content>p {
+    display: none;
+}
+
+.k_good_top .k_tab_item {
+    font-weight: normal;
+}
+
+.k_good_top .k_tab_item::after {
+    background: transparent;
+}
+
+.k_good_top .k_tab_item:hover,
+.k_count:hover {
+    color: #dc0014;
+    text-decoration: underline;
+}
+
+.k_good_content {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.k_good_item {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.k_good_item>span {
+    display: inline-block;
+    width: 28px;
+    height: 54px;
+    color: #fff;
+    font-weight: 700;
+    padding: 6px 2px 0;
+    font-size: 15px;
+    text-align: center;
+    background: url(https://static.winxuancdn.com/css/v2/images/common-bg.png) -222px -88px no-repeat;
+}
+
+.k_good_item>p {
+    width: 135px;
+    line-height: 24px;
+    margin: 10px 15px 10px 10px;
+    padding: 0 16px 0 10px;
+    border-right: 1px solid #e7e7e7;
+}
+
+.k_good_ask {
+    width: 150px;
+    height: 65px;
+    padding: 25px 10px 30px;
+    text-align: center;
+}
+
+.k_good_ask p {
+    font-size: 12px;
+    line-height: 24px;
+    color: #666;
+}
+
+.k_good_ask button {
+    width: 106px;
+    height: 39px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background: #f7f7f7;
+    color: #666;
+    font-size: 16px;
+}
+
+
+/* 返回顶部 */
+
+.top {
+    /* display: block; */
+    display: none;
+    position: fixed;
+    right: 155px;
+    bottom: 40px;
+}
+
+
+/* 左 */
+
+.z_left-column {
+    width: 190px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.z_title {
+    height: 28px;
+    line-height: 28px;
+    background: #f7f7f7;
+    border: 1px solid #e8e8e8;
+}
+
+.z_title h2 {
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+    color: black;
+}
+
+.z_cont {
+    border: 1px solid #e8e8e8;
+    border-top: 0;
+    box-sizing: border-box;
+}
+
+.z_cont-list {
+    /* margin: 8px 0; */
+    padding: 0 4px;
+    box-sizing: border-box;
+}
+
+.z_cont-list li {
+    height: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 4px 0;
+}
+
+.z_cont-list li a {
+    font-size: 12px;
+    color: #666;
+}
+
+.z_cont-base img {
+    width: 100%;
+    height: 70.5px;
+}

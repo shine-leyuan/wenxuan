@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+body{
+    background: #f5f5f5;
+}
+.b_car{
+    width: 990px;
+    margin: 0 auto;
+    padding: 0 13px;
+    background: #fff;
+}
+.b_car_service{
+    float: right;
+    font-size: 18px;
+    color: #7e7e7e;
+    line-height: 46px;
+    cursor: pointer;
+}
+.b_plan{
+    height: 33px;
+    padding: 10px 0;
+}
+.b_plan_img{
+    background: url(https://static.winxuancdn.com/css/v1/images/bread-buy.jpg) no-repeat;
+    height: 33px;
+}
+.b_car_content{
+    padding: 10px 0;
+}
+.b_car_empty{
+    background: #f9f9f9 url(https://static.winxuancdn.com/css/v1/images/emptycart.jpg) 250px 50px no-repeat;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 90px 90px 90px 390px;
+    margin: 30px 0;
+    text-align: left;
+}
+.b_car_follow{
+    font-size: 16px;
+    color: #212529;
+}
+.b_car_follow_blue{
+    color: #0066cc;
+}
+.b_car_follow_red{
+    color: #c6000b;
+}
+.b_button_group{
+    height: 80px;
+}
+.b_car_continue{
+    width: 142px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #f2f2f2;
+    color:#8a8a8a;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #cbcbcb;
+}
+.b_settlement{
+    width: 208px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    background: #da0120;
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+
+.b_car_table_list{
+    border: 1px solid #ddd;
+    background: #fffefd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.b_car_thead{
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #ddd;
+    background: #f3f3f3;
+    color: #666;
+    display: flex;
+}
+.b_product,.b_price,.b_credits,.b_privilege,.b_quantity,.b_operation{
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+.b_product{
+    width: 435px;
+
+}
+.b_price{
+    width: 105px;
+}
+.b_credits{
+    width: 95px;
+}
+.b_privilege,.b_quantity{
+    width: 120px;
+    position: relative;
+}
+.b_operation{
+    width: 100px;
+    border: none;
+}
+.b_operation:hover .b_operation_text{
+    color: #c00;
+}
+.b_check_all{
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    padding-left: 40px;
+    border-bottom: 1px dashed #ddd;
+    background: #f9f9f9;
+
+}
+.checkall{
+    margin-right: 10px;
+}
+.b_sep{
+    height: 4px;
+    border-bottom: 1px solid #eee;
+    background: #f3f3f3;
+
+}
+.b_goods-item{
+    height: 65px;
+    line-height: 65px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+}
+.b_checkbox{
+    width: 35px;
+    height: 65px;
+    line-height: 65px;
+    text-align: right;
+}
+.b_product_item{
+    width: 400px;
+    height: 65px;
+    line-height: 65px;
+}
+.b_product_img{
+    height: 55px;
+    width: 55px;
+    margin: 5px 10px 0 5px;
+    overflow: hidden;
+    float: left;
+}
+.b_product_title{
+    text-align: left;
+    color: #06c;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.b_product_title a{
+    color: #06c;
+    text-decoration: none;
+}
+.b_price span,.b_credits span{
+    font-size: 12px;
+}
+.b_car_less{
+    position: absolute;
+    top: 26px;
+    left: 18px;
+    background: url(https://static.winxuancdn.com/css/v1/images/icons.png) no-repeat;
+    width: 18px;
+    height: 13px;
+    display: block;
+    overflow: hidden;
+}
+.b_car_add{
+    position: absolute;
+    top: 26px;
+    left: 86px;
+    background: url(https://static.winxuancdn.com/css/v1/images/icons.png)no-repeat -23px 0;
+    width: 18px;
+    height: 13px;
+    display: block;
+    overflow: hidden;
+}
+.b_car_price_ipt{
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    position: absolute;
+    top: 22px;
+    left: 40px;
+    outline: none;
+}
+.b_operation_text{
+    font-size: 12px;
+    color: #0066cc;
+    cursor: pointer;
+}
+.b_car_summary{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    background: #fff;
+}
+.b_car_brief{
+    width: 360px;
+    float: right;
+}
+.b_car_brief_top,.b_car_brief_bottom{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #212529;
+    display: flex;
+}
+.b_product_num{
+    width: 100px;
+    text-align: right;
+}
+.b_car_num{
+    color:#c00;
+}
+.b_car_total{
+    width: 100px;
+    text-indent: 10px;
+}
+.b_car_total_num,.b_preferential_num{
+    width: 145px;
+    margin-right: 15px;
+    text-align: right;
+}
+.b_preferential{
+    width: 200px;
+    text-indent: 110px;
+}
+.b_car_count{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #f3f3f3;
+}
+.b_car_balance{
+    width: 320px;
+    height: 50px;
+    float: right;
+}
+.b_car_balance span{
+    width: 100px;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 12px;
+    color: #212529;
+    float: left;
+}
+.b_car_price{
+    width: 145px;
+    margin-right: 15px;
+    text-align: right;
+    float: right;
+    font-weight: bolder;
+    font-size: 16px;
+    color: #c00;
+}
+
+.b_car_prompt{
+    position: absolute;
+    top: 275px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    display: none;
+}
+.b_wrap{
+    width: 200px;
+    margin-bottom: 10px;
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 5px 2px 6px #ccc;
+    font-size: 12px;
+}
+.b_car_prompt .b_wrap::before{
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    padding: 5px 0;
+    border: solid rgba(0, 0, 0, 0);
+    border-top-color: #fff;
+    border-width: 8px;
+    top: 100%;
+    left: 50%;
+    margin-left: -8px;
+
+}
+.b_prompt_title{
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    background: #f2f2f2;
+    color: #212529;
+    padding: 0 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.b_car_cancel{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    height: 16px;
+    width: 16px;
+    overflow: hidden;
+    background: url(https://static.winxuancdn.com/css/v1/images/icons.png) no-repeat -100px 2px;
+    cursor: pointer;
+}
+.b_car_msg{
+    padding: 10px;
+    text-align: center;
+}
+.b_car_button{
+    height: 40px;
+    text-align: center;
+}
+.b_confirm,.b_canel{
+    width: 45px;
+    height: 20px;
+    display: inline-block;
+    margin: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.b_car_prompt1{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 300px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 5px 2px 6px #ccc;
+    display: none;
+}
+.b_prompt_title1{
+    background: #f2f2f2;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.b_car_msg1{
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+.b_car_num1{
+    color: #c00;
+    font-size: 20px;
+    margin-right: 5px;
+}

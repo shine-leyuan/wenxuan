@@ -1,0 +1,42 @@
+.y_process_img {
+    width: 728px;
+    height: 44px;
+    margin-top: 10px;
+    background: url(https://static.winxuancdn.com/css2/images/background-img.png) no-repeat 0 -58px;
+}
+
+.y_title {
+    padding: 20px 10px 10px 10px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #646363;
+    border-bottom: #bd0822 solid 2px;
+}
+
+.y_guide {
+    padding: 40px 20px;
+}
+
+.y_novice {
+    margin-bottom: 30px;
+}
+
+.y_novice h4 {
+    margin-bottom: 12px;
+    padding-left: 10px;
+    background: url(https://static.winxuancdn.com/css2/images/little-bg.png) no-repeat -23px -188px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #646363;
+}
+
+.y_novice a {
+    margin-right: 28px;
+    font-size: 12px;
+    color: #797979;
+}
+
+.y_novice a:hover {
+    color: #ed7c00;
+    text-decoration: underline;
+}

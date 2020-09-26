@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://pic.liesio.com/2020/09/16/e7c4e908c32e8.ico">
+    <link rel="bookmark" href="https://pic.liesio.com/2020/09/16/e7c4e908c32e8.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/c-head.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./css/topping.css">
+    <title>帮助中心</title>
+</head>
+
+<body>
+    <!-- header头 -->
+    <div class="c_layout">
+        <header class="c_top">
+            <!-- 顶部导航 -->
+            <div class="w_top_w box">
+              <div class="c_top_n c_position" id="c_top_1">
+                <div class="c_top_nav c_content">
+                  <ul class="c_link_left">
+                    <li id='w_user_welcom'>欢迎光临文轩网！</li>
+                    <li>
+                      <a href="./b_login.html" id='w_go' style="float: left;">请<span>&nbsp;&nbsp;登录</span></a>
+                      <a href="./b_sign-up.html" id="w_sign" style="float: left;">免费注册</a>
+                      <a href="./js_myWenxuan.html" id='w_username' style="float: left;margin-right: 20px;"></a>
+                      <a href="javascript:void(0)" id='w_quit'>退出登录</a>
+                    </li>
+                  </ul>
+                  <ul class="c_link_right">
+                    <li class="c_li_1">
+                      <a href="js_myWenxuan.html">
+                        <span>我的文轩</span>
+                        <i class="iconfont icon-jiantou"></i>
+                      </a>
+                      <div class="c_pop">
+                        <ul class="c_pop_item">
+                          <li class="c_item_list">
+                            <a href="js_myWenxuan.html">我的订单</a>
+                          </li>
+                           <li class="c_item_list">
+                            <a href="./b_account.html" id="w_count">账号设置</a>
+                          </li>                    
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="c_li_2">
+                      <a href="./z_index.html">
+                        <span>企业采购</span>
+                      </a>
+                    </li>
+                    <li class="c_li_3">
+                      <a href="#">
+                        <span>客户服务</span>
+                        <i class="iconfont icon-jiantou"></i>
+                      </a>
+                      <div class="c_pop">
+                        <ul class="c_pop_item">
+                          <li class="c_item_list">
+                            <a href="./w_robat.html">在线客服</a>
+                          </li>
+                          <li class="c_item_list">
+                            <a href="./y_help.html">帮助中心</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="c-li_4">
+                      <a href="#">
+                        <span>手机文轩</span>
+                        <i class="iconfont icon-jiantou"></i>
+                      </a>
+                      <div class="c_pop c_pop_s">
+                        <div class="c_pop_item">
+                          <img src="https://static.winxuancdn.com/css/v2/images/m143.jpg" alt="">
+                          <a href="#">扫一扫&nbsp;&nbsp;文轩手机购物></a>
+                        </div>
+                        <div class="c_pop_item">
+                          <img src="https://static.winxuancdn.com/css/v2/images/code2.png" alt="">
+                          <a href="#">电子书&nbsp;&nbsp;客户端></a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- logo + 搜索框 -->
+            <div class="c_head_content" id="c_nav">
+              <div class="c_head_log c_content">
+                <!-- logo -->
+                <div class="c_log_1">
+                  <a href="#">
+                    <img src="https://static.winxuancdn.com/css/v2/images/logo.png" alt="">
+                  </a>
+                </div>
+                <!-- 搜索框 -->
+                <div class="c_logo_2" style="height: 40px;width: 600px;" id="c_from">
+                  <form action="https://search.winxuan.com/search" style="height: 40px;" method="get">
+                    <div class="c_search-b">
+                      <img src="https://static.winxuancdn.com/cms/assets/images/winxuanhome/index/index-search-icon.png"
+                        alt="">
+                      <input id="ipt" type="text" autocomplete="off" placeholder="抖音营销" data-array="活着|雪国之劫|抖音营销|">
+                      <button id="btn">搜索</button>
+                      <div class="k_booklist">
+                      </div>
+                    </div>
+                  </form>
+                  <div class="c_logo_keywords" id="c_key_b">
+                    热搜：
+                    <a href="#">
+                      <span>
+                        九月领券区
+                        <img src="https://static.winxuancdn.com/topic/subject/201605/pc-pl/hot-045.gif" alt="">
+                      </span>
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                      <span>
+                        习近平谈治国理政3
+                        <img src="https://static.winxuancdn.com/topic/subject/201605/pc-pl/hot-045.gif" alt="">
+                      </span>
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                      <span>
+                        9.9专区
+                        <img src="https://static.winxuancdn.com/topic/subject/201605/pc-pl/hot-045.gif" alt="">
+                      </span>
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                      <span>
+                        今日秒杀
+                        <img src="https://static.winxuancdn.com/topic/subject/201605/pc-pl/hot-045.gif" alt="">
+                      </span>
+                    </a>
+                    <span>|</span>
+                    <a href="#">
+                      <span>
+                        曾国藩
+                        <img src="https://static.winxuancdn.com/topic/subject/201605/pc-pl/hot-045.gif" alt="">
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="c_logo_3" id="c_logo_3">
+                  <a href="./b_car.html">
+                    <div class="c_logo_user">
+                      <i class="iconfont icon-gouwuchezhengpin"></i>
+                      <label for="">购物车</label>
+                      <div class="c_master_pop">
+                        2
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- 首页导航 -->
+            <!-- <div class="w_top_menu">
+              <div class="w_top_menu1_wrap">
+                <div class="w_top_left fl">
+                  <h2>
+                    <img src="https://static.winxuancdn.com/cms/assets/images/winxuanhome/index/navmenuicon.png" alt="">
+                    全部商品分类</h2>
+                </div>
+                <div class="w_top_right fl">
+                  <ul class="w_top_list fl" id='w_top_list'>
+                    <li class="w_top_item active" ><a href='javascript:void(0)' data-x='0'>图书畅销榜</a></li>
+                    <li class="w_top_item" ><a href='javascript:void(0)' data-x='1'>新书热卖榜</a></li>
+                    <li class="w_top_item" ><a href='javascript:void(0)' data-x='2'>童书绘本</a></li>
+                    <li class="w_top_item" ><a href='javascript:void(0)' data-x='3'>小说文学</a></li>
+                    <li class="w_top_item" ><a href='javascript:void(0)' data-x='4'>社科经营</a></li>
+                    <li class="w_top_item" ><a href='javascript:void(0)' data-x='5'>网络科技</a></li>
+                    <li class="w_top_item" ><a href='javascript:void(0)' data-x='6'>医学</a></li>
+                    <li class="w_top_item" ><a href='javascript:void(0)' data-x='7'>教材教辅</a></li>
+                    <li class="w_top_item" ><a href='javascript:void(0)' data-x='8'>生活艺术</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div> -->
+            <!-- 分页导航 -->
+            <div class="w_top_menu2">
+                <div class="w_top_menu2_wrap">
+                  <div class="w_top_left2 fl">
+                    <h2 class="fl w_top_left2_h">全部商品分类</h2>
+                    <i class="iconfont icon-jiantou"></i>
+                    <div class="w_sub_wrap">
+                      <div class="w_sub_item">
+                        <div class="w_item_title">
+                          <h3>
+                            <a href="" class="w_item_aa">童书/育儿</a>
+                          </h3>
+                          <div class="w_item_content">
+                            <a href="" title="幼儿绘本">幼儿绘本</a>
+                            <a href="" title="幼儿启蒙">幼儿启蒙</a>
+                            <a href="" title="国学启蒙">国学启蒙</a>
+                            <a href="" title="趣味童书">趣味童书</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="w_sub_item">
+                        <div class="w_item_title">
+                          <h3>
+                            <a href="" class="w_item_aa">文学/小说</a>
+                          </h3>
+                          <div class="w_item_content">
+                            <a href="" title="幼儿绘本">现当代文学</a>
+                            <a href="" title="幼儿启蒙">民间文学</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="w_sub_item">
+                        <div class="w_item_title">
+                          <h3>
+                            <a href="" class="w_item_aa">社科/经管</a>                 
+                          </h3>
+                          <div class="w_item_content">
+                            <a href="" title="幼儿绘本">大众经济读物</a>
+                            <a href="" title="幼儿启蒙">经济理论、法规</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="w_sub_item">
+                        <div class="w_item_title">
+                          <h3>
+                            <a href="" class="w_item_aa">行业/职业</a>
+                          </h3>
+                          <div class="w_item_content">
+                            <a href="" title="幼儿绘本">编程语言</a>
+                            <a href="" title="幼儿启蒙">数据库</a>
+                            <a href="" title="国学启蒙">网络技术</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="w_sub_item">
+                        <div class="w_item_title">
+                          <h3>
+                            <a href="" class="w_item_aa">教材/教辅</a>
+                          </h3>
+                          <div class="w_item_content">
+                            <a href="" title="幼儿绘本">小学教材</a>
+                            <a href="" title="幼儿启蒙">初中教材</a>
+                            <a href="" title="国学启蒙">高中教材</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="w_sub_item">
+                        <div class="w_item_title">
+                          <h3>
+                            <a href="" class="w_item_aa">生活/艺术</a>                
+                          </h3>
+                          <div class="w_item_content">
+                            <a href="" title="幼儿绘本">成功学</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="w_sub_item">
+                        <div class="w_item_title">
+                          <h3>
+                            <a href="" class="w_item_aa">音像/艺术</a>                 
+                          </h3>
+                          <div class="w_item_content">
+                            <a href="" title="幼儿绘本">教学音带</a>
+                            <a href="" title="幼儿绘本">教学CD</a>
+                            <a href="" title="幼儿绘本">教学VCD</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w_top_right2 fl">
+                    <ul class="w_top_list2 fl">
+                      <li class="w_top_item2 active"><a href='#'>图书畅销榜</a></li>
+                      <li class="w_top_item2"><a href='#'>新书热卖榜</a></li>
+                      <li class="w_top_item2"><a href='#'>童书绘本</a></li>
+                      <li class="w_top_item2"><a href='#'>小说文学</a></li>
+                      <li class="w_top_item2"><a href='#'>社科经营</a></li>
+                      <li class="w_top_item2"><a href='#'>网络科技</a></li>
+                      <li class="w_top_item2"><a href='#'>医学</a></li>
+                      <li class="w_top_item2"><a href='#'>教材教辅</a></li>
+                      <li class="w_top_item2"><a href='#'>生活艺术</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+          </header>
+    </div>
+    <!-- 购物流程 -->
+    <div class="y_process c_content">
+        <p class="y_title">文轩网购物流程</p>
+        <div class="y_process_img">
+        </div>
+    </div>
+    <!-- 帮助指南 -->
+    <div class="y_process c_content" style="margin:10px auto 0 auto">
+        <p class="y_title">文轩帮助指南</p>
+        <div class="y_guide">
+            <div class="y_novice">
+                <h4>新手入门</h4>
+                <a href="javascript:;">购物保障</a><a href="javascript:;">购物流程</a><a href="javascript:;">常见问题</a><a
+                    href="javascript:;">联系客服</a>
+            </div>
+            <div class="y_novice">
+                <h4>配送服务</h4>
+                <a href="javascript:;">货到付款</a><a href="javascript:;">配送范围和时间</a><a href="javascript:;">配送收费标准</a><a
+                    href="javascript:;">快递查询入口</a><a href="javascript:;">验货与签收</a>
+            </div>
+            <div class="y_novice">
+                <h4>支付方式</h4>
+                <a href="javascript:;">货到付款</a><a href="javascript:;">在线支付</a><a href="javascript:;">银行转账汇款</a><a
+                    href="javascript:;">其他支付方式</a>
+            </div>
+            <div class="y_novice">
+                <h4>售后服务</h4>
+                <a href="javascript:;">退换货规则</a><a href="javascript:;">如何申请售后</a><a href="javascript:;">退款及提现</a>
+            </div>
+            <div class="y_novice">
+                <h4>我的订单</h4>
+                <a href="javascript:;">下单演示</a><a href="javascript:;">订单状态/查询</a><a href="javascript:;">订单取消</a><a
+                    href="javascript:;">发票制度</a><a href="javascript:;"> 积分规则</a>
+            </div>
+            <div class="y_novice">
+                <h4>文轩服务</h4>
+                <a href="javascript:;">礼券（优惠券）</a><a href="javascript:;">文轩购书卡</a><a href="javascript:;">文轩好书推荐</a><a
+                    href="javascript:;">交易条款</a>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="c_foot">
+        <div class="c_foot_unit">
+            <dl class="c_foot_unit_list">
+                <dt>新手入门</dt>
+                <dd>
+                    <a href="#">购物保障</a>
+                </dd>
+                <dd>
+                    <a href="#">购物流程</a>
+                </dd>
+                <dd>
+                    <a href="#">常见问题</a>
+                </dd>
+                <dd>
+                    <a href="#">联系客服</a>
+                </dd>
+            </dl>
+            <dl class="c_foot_unit_list">
+                <dt>配送服务</dt>
+                <dd>
+                    <a href="#">货到付款区域查询</a>
+                </dd>
+                <dd>
+                    <a href="#">配送范围和时间</a>
+                </dd>
+                <dd>
+                    <a href="#">配送收费标准</a>
+                </dd>
+                <dd>
+                    <a href="#">快递查询入口</a>
+                </dd>
+                <dd>
+                    <a href="#">验货与签收</a>
+                </dd>
+            </dl>
+            <dl class="c_foot_unit_list">
+                <dt>支付方式</dt>
+                <dd>
+                    <a href="#">货到付款</a>
+                </dd>
+                <dd>
+                    <a href="#">银行转账/汇款</a>
+                </dd>
+                <dd>
+                    <a href="#">在线支付</a>
+                </dd>
+                <dd>
+                    <a href="#">其他支付方式</a>
+                </dd>
+                <dd>
+                    <a href="#">交易安全防诈骗</a>
+                </dd>
+            </dl>
+            <dl class="c_foot_unit_list">
+                <dt>售后服务</dt>
+                <dd>
+                    <a href="#">退换货规则</a>
+                </dd>
+                <dd>
+                    <a href="#">如何申请售后服务</a>
+                </dd>
+                <dd>
+                    <a href="#">退款及提现</a>
+                </dd>
+            </dl>
+            <dl class="c_foot_unit_list">
+                <dt>我的订单</dt>
+                <dd>
+                    <a href="#">下单演示</a>
+                </dd>
+                <dd>
+                    <a href="#">订单状态/查询</a>
+                </dd>
+                <dd>
+                    <a href="#">订单取消</a>
+                </dd>
+                <dd>
+                    <a href="#">发票制度</a>
+                </dd>
+                <dd>
+                    <a href="#">积分规则</a>
+                </dd>
+            </dl>
+            <dl class="c_foot_unit_list">
+                <dt>文轩服务</dt>
+                <dd>
+                    <a href="#">礼券(优惠券)</a>
+                </dd>
+                <dd>
+                    <a href="#">文轩购书卡</a>
+                </dd>
+                <dd>
+                    <a href="#">文轩好书推荐</a>
+                </dd>
+                <dd>
+                    <a href="#">交易条款</a>
+                </dd>
+            </dl>
+            <dl class="c_foot_list">
+                <dt>电子书阅读器</dt>
+                <dd>
+                    <a href="#" class="c_foot_unit1">Android</a>
+                </dd>
+                <dd>
+                    <a href="#" class="c_foot_unit2">iPad</a>
+                </dd>
+                <dd>
+                    <a href="#" class="c_foot_unit3">iPhone</a>
+                </dd>
+                <dd>
+                    <a href="#" class="c_foot_unit4">PC阅读器</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="c_foot_home">
+            <div class="c_foot_top">
+                <div class="c_foot_top-1">
+                    <img src="./img/login_footer1.png" alt="">
+                    <div>
+                        正品保障<br> 假一赔五
+                    </div>
+                </div>
+                <div class="c_foot_top-1">
+                    <img src="./img/login_footer2.png" alt="">
+                    <div>
+                        一网打尽<br> 更多优惠
+                    </div>
+                </div>
+                <div class="c_foot_top-1">
+                    <img src="./img/login_footer3.png" alt="">
+                    <div>
+                        800城市货到付款<br> 北上广深次日达
+                    </div>
+                </div>
+                <div class="c_foot_top-1">
+                    <img src="./img/login_footer4.png" alt="">
+                    <div>
+                        电子发票<br> 报销无忧
+                    </div>
+                </div>
+            </div>
+            <div class="c_foot_bottom">
+                <p class="winshare_info">
+                    <a href="#">关于文轩</a>|
+                    <a href="#">联系文轩</a>|
+                    <a href="#">加入文轩</a>|
+                    <a href="#">合作伙伴</a>
+                </p>
+                <p class="putOnrecords">
+                    川公网安备 51010602000457号 丨 出版物经营许可证 丨 蜀ICP备11014037号<br> Copyright(C) 文轩网2000-2020 版权所有 丨
+                    客服热线：400-072-0808
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/c_content.js"></script>
+</body>
+
+</html>

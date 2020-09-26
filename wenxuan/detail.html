@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://pic.liesio.com/2020/09/16/e7c4e908c32e8.ico">
+    <link rel="bookmark" href="https://pic.liesio.com/2020/09/16/e7c4e908c32e8.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/c-head.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./css/details.css">
+    <script src="./js/details.js"></script>
+    <title>详情页</title>
+</head>
+
+<body>
+    <!-- header头 -->
+    <div class="c_layout">
+        <header class="c_top">
+            <!-- 顶部导航 -->
+            <div class="w_top_w box">
+                <div class="c_top_n c_position" id="c_top_1">
+                    <div class="c_top_nav c_content">
+                        <ul class="c_link_left">
+                            <li id='w_user_welcom'>欢迎光临文轩网！</li>
+                            <li>
+                                <a href="./b_login.html" id='w_go' style="float: left;">请<span>&nbsp;&nbsp;登录</span></a>
+                                <a href="./b_sign-up.html" id="w_sign" style="float: left;">免费注册</a>
+                                <a href="./js_myWenxuan.html" id='w_username'
+                                    style="float: left;margin-right: 20px;"></a>
+                                <a href="javascript:void(0)" id='w_quit'>退出登录</a>
+                            </li>
+                        </ul>
+                        <ul class="c_link_right">
+                            <li class="c_li_1">
+                                <a href="js_myWenxuan.html">
+                                    <span>我的文轩</span>
+                                    <i class="iconfont icon-jiantou"></i>
+                                </a>
+                                <div class="c_pop">
+                                    <ul class="c_pop_item">
+                                        <li class="c_item_list">
+                                            <a href="js_myWenxuan.html">我的订单</a>
+                                        </li>
+                                        <li class="c_item_list">
+                                            <a href="./b_account.html" id="w_count">账号设置</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="c_li_2">
+                                <a href="./z_index.html">
+                                    <span>企业采购</span>
+                                </a>
+                            </li>
+                            <li class="c_li_3">
+                                <a href="#">
+                                    <span>客户服务</span>
+                                    <i class="iconfont icon-jiantou"></i>
+                                </a>
+                                <div class="c_pop">
+                                    <ul class="c_pop_item">
+                                        <li class="c_item_list">
+                                            <a href="./w_robat.html">在线客服</a>
+                                        </li>
+                                        <li class="c_item_list">
+                                            <a href="./y_help.html">帮助中心</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="c-li_4">
+                                <a href="#">
+                                    <span>手机文轩</span>
+                                    <i class="iconfont icon-jiantou"></i>
+                                </a>
+                                <div class="c_pop c_pop_s">
+                                    <div class="c_pop_item">
+                                        <img src="https://static.winxuancdn.com/css/v2/images/m143.jpg" alt="">
+                                        <a href="#">扫一扫&nbsp;&nbsp;文轩手机购物></a>
+                                    </div>
+                                    <div class="c_pop_item">
+                                        <img src="https://static.winxuancdn.com/css/v2/images/code2.png" alt="">
+                                        <a href="#">电子书&nbsp;&nbsp;客户端></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- logo + 搜索框 -->
+            <div class="c_head_content" id="c_nav">
+                <div class="c_head_log c_content">
+                    <!-- logo -->
+                    <div class="c_log_1">
+                        <a href="./c_head.html">
+                            <img src="https://static.winxuancdn.com/css/v2/images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <!-- 搜索框 -->
+                    <div class="c_logo_2" style="height: 40px;width: 600px;" id="c_from">
+                        <form action="https://search.winxuan.com/search" style="height: 40px;" method="get">
+                            <div class="c_search-b">
+                                <img src="https://static.winxuancdn.com/cms/assets/images/winxuanhome/index/index-search-icon.png"
+                                    alt="">
+                                <input id="ipt" type="text" autocomplete="off" placeholder="抖音营销"
+                                    data-array="活着|雪国之劫|抖音营销|">
+                                <button id="btn">搜索</button>
+                                <div class="k_booklist">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="c_logo_keywords" id="c_key_b">
+                            热搜：
+                            <a href="#">
+                                <span>
+                                    九月领券区
+                                    <img src="./img/hot.gif" alt="">
+                                </span>
+                            </a>
+                            <span>|</span>
+                            <a href="#">
+                                <span>
+                                    习近平谈治国理政3
+                                    <img src="./img/hot.gif" alt="">
+                                </span>
+                            </a>
+                            <span>|</span>
+                            <a href="#">
+                                <span>
+                                    9.9专区
+                                    <img src="./img/hot.gif" alt="">
+                                </span>
+                            </a>
+                            <span>|</span>
+                            <a href="#">
+                                <span>
+                                    今日秒杀
+                                    <img src="./img/hot.gif" alt="">
+                                </span>
+                            </a>
+                            <span>|</span>
+                            <a href="#">
+                                <span>
+                                    曾国藩
+                                    <img src="./img/hot.gif" alt="">
+                                </span>
+                            </a>
+                            <a href="#" target="_blank" class="c_height_s">高级搜索</a>
+                        </div>
+                    </div>
+                    <div class="c_logo_3" id="c_logo_3">
+                        <a href="#">
+                            <div class="c_logo_user">
+                                <i class="iconfont icon-gouwuchezhengpin"></i>
+                                <label for="">购物车</label>
+                                <div class="c_master_pop">
+                                    2
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--分页导航  -->
+            <div class="w_top_menu2">
+                <div class="w_top_menu2_wrap">
+                    <div class="w_top_left2 fl">
+                        <h2 class="fl w_top_left2_h">全部商品分类</h2>
+                        <i class="iconfont icon-jiantou"></i>
+                        <div class="w_sub_wrap">
+                            <div class="w_sub_item">
+                                <div class="w_item_title">
+                                    <h3>
+                                        <a href="javascript:;" class="w_item_aa">童书/育儿</a>
+                                    </h3>
+                                    <div class="w_item_content">
+                                        <a href="javascript:;" title="幼儿绘本">绘本</a>
+                                        <a href="javascript:;" title="幼儿启蒙">国学启蒙</a>
+                                        <a href="javascript:;" title="国学启蒙">趣味童书</a>
+                                        <a href="javascript:;" title="趣味童书">幼小衔接入学</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w_sub_item">
+                                <div class="w_item_title">
+                                    <h3>
+                                        <a href="javascript:;" class="w_item_aa">文学/小说</a>
+                                    </h3>
+                                    <div class="w_item_content">
+                                        <a href="javascript:;" title="幼儿绘本">外国文学</a>
+                                        <a href="javascript:;" title="幼儿启蒙">国学</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w_sub_item">
+                                <div class="w_item_title">
+                                    <h3>
+                                        <a href="javascript:;" class="w_item_aa">社科/经管</a>
+                                    </h3>
+                                    <div class="w_item_content">
+                                        <a href="javascript:;" title="幼儿绘本">经济读物</a>
+                                        <a href="javascript:;" title="幼儿启蒙">市场营销</a>
+                                        <a href="javascript:;" title="幼儿启蒙">房地产</a>
+                                        <a href="javascript:;" title="幼儿启蒙">领导人著作</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w_sub_item">
+                                <div class="w_item_title">
+                                    <h3>
+                                        <a href="javascript:;" class="w_item_aa">行业/职业</a>
+                                    </h3>
+                                    <div class="w_item_content">
+                                        <a href="javascript:;" title="幼儿绘本">电子商务</a>
+                                        <a href="javascript:;" title="幼儿启蒙">医学科普</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w_sub_item">
+                                <div class="w_item_title">
+                                    <h3>
+                                        <a href="javascript:;" class="w_item_aa">教材/教辅</a>
+                                    </h3>
+                                    <div class="w_item_content">
+                                        <a href="javascript:;" title="幼儿绘本">小学教材</a>
+                                        <a href="javascript:;" title="幼儿启蒙">科普</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w_sub_item">
+                                <div class="w_item_title">
+                                    <h3>
+                                        <a href="javascript:;" class="w_item_aa">生活/艺术</a>
+                                    </h3>
+                                    <div class="w_item_content">
+                                        <a href="javascript:;" title="幼儿绘本">成功学</a>
+                                        <a href="javascript:;" title="幼儿绘本">亲子</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w_sub_item">
+                                <div class="w_item_title">
+                                    <h3>
+                                        <a href="javascript:;" class="w_item_aa">音像/艺术</a>
+                                    </h3>
+                                    <div class="w_item_content">
+                                        <a href="javascript:;" title="幼儿绘本">教学音带</a>
+                                        <a href="javascript:;" title="幼儿绘本">教学CD</a>
+                                        <a href="javascript:;" title="幼儿绘本">教学VCD</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w_top_right2 fl">
+                        <ul class="w_top_list2 fl">
+                            <li class="w_top_item2 active"><a href='#' data-h='0'>图书畅销榜</a></li>
+                            <li class="w_top_item2"><a href='#' data-h='1'>新书热卖榜</a></li>
+                            <li class="w_top_item2"><a href='#' data-h='2'>童书绘本</a></li>
+                            <li class="w_top_item2"><a href='#' data-h='3'>小说文学</a></li>
+                            <li class="w_top_item2"><a href='#' data-h='4'>社科经营</a></li>
+                            <li class="w_top_item2"><a href='#' data-h='5'>网络科技</a></li>
+                            <li class="w_top_item2"><a href='#' data-h='6'>医学</a></li>
+                            <li class="w_top_item2"><a href='#' data-h='7'>教材教辅</a></li>
+                            <li class="w_top_item2"><a href='#' data-h='8'>生活艺术</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="y_container" id='tops'>
+        <!-- 面包屑导航 -->
+        <div class="y_bookNav">
+            <a href="javascript:;" class="y_select">图书</a>
+            <span>></span>
+            <a href="javascript:;">教材\教辅</a>
+            <span>></span>
+            <a href="javascript:;">课外读物</a>
+            <span>></span>
+            <a href="javascript:;">课外读物</a>
+        </div>
+        <!-- 主题内容 -->
+        <div class="y_theme clearfix">
+            <!-- 热门活动 -->
+            <!-- 第三左边 -->
+            <div class="z_left-column  y_left">
+                <div class="z_title">
+                    <h2>热门活动</h2>
+                </div>
+                <div class="z_cont">
+                    <ul class="z_cont-list">
+                        <li><a href="">【热门】开学囤书推荐</a></li>
+                        <li><a href="">【热门】你的漫画时光</a></li>
+                        <li><a href="">【热门】和风 日式工作法</a></li>
+                    </ul>
+                    <div class="z_cont-base">
+                        <a href=""><img src="http:////static.winxuancdn.com/topic/subject/202004/rmlb/200-75.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="z_cont-base">
+                        <a href=""><img src="http://static.winxuancdn.com/topic/subject/201908/19kx/200-75.jpg"
+                                alt=""></a>
+                    </div>
+                    <div class="z_cont-base">
+                        <a href=""><img src="http://static.winxuancdn.com/topic/subject/201907/dj/200-75.jpg"
+                                alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 右侧详情 -->
+            <div class="y_wrap y_right">
+                <!-- 放大镜 -->
+                <div class="y_magnifying">
+                    <div class="y_wrap_imgs">
+                        <!-- <div class="y_img">
+                            <div class="y_wrap_box"></div>
+                            <div class="y_tag"></div>
+                            <img src="http://img2.winxuancdn.com/7498/1201877498_0_1_800x800.jpg?1570518707341&imageMogr2/thumbnail/350x350">
+                        </div>
+                        <div class="y_img y_bigimg">
+                            <img src="http://img2.winxuancdn.com/7498/1201877498_0_1_800x800.jpg?1570518707341&imageMogr2/thumbnail/600x600">
+                        </div> -->
+                    </div>
+                    <a href="javascript:;" class="y_batch"></a>
+                    <div class="y_shar clearfix">
+                        <span class="y_left">分享到：7</span>
+                        <a href="javascript:;" class="y_collect y_left" id="w_join"></a>
+                    </div>
+                </div>
+                <!-- 图书信息 -->
+                <div class="y_news">
+                    <!-- <div class="y_title">
+                        <h1>墨菲定律 每天学点心理学</h1>
+                        <p>购书卡&政企书目服务专线：028-83157118（10:00-17:00）</p>
+                    </div> -->
+                    <!-- 图书详情 -->
+                    <!-- <div class="y_attr">
+                        <dl class="y_price">
+                            <dt>定　　价 ：</dt>
+                            <dd>¥39.80</dd>
+                        </dl>
+                        <dl class="y_sellling">
+                            <dt>文 轩 价 ：</dt>
+                            <dd><strong>¥9.90</strong> <span>（2.49折）</span></dd>
+                        </dl>
+                        <dl class="y_gps">
+                            <dt>配 送 至 ：</dt>
+                            <dd><input type="text" class="address" placeholder="中国四川省成都市"> <span>现在有货</span><br><b>文轩网 <span>正版图书音像</span> ，为您快捷发货</b>
+                                <a href="javascript:;">（配送详情）</a>
+                            </dd>
+                        </dl>
+                        <dl class="y_author">
+                            <dt>作　　者 ：</dt>
+                            <dd><a href="javascript:;">夏林</a></dd>
+                        </dl>
+                        <dl class="y_class">
+                            <dt>所属分类 ：</dt>
+                            <dd><a href="javascript:;">图书</a><span>></span><a href="javascript:;">社科经营</a><span>></span><a href="javascript:;">宗教哲学</a><span>></span><a href="javascript:;">心理学</a><span>></span> </dd>
+                        </dl>
+                        <dl class="y_class ">
+                            <dt>促销活动 ：</dt>
+                            <dd class="y_page">❤【文轩秒杀】0903 <br>❤老客户回馈，积分换礼券，购书更实惠<br>❤大陆非新疆西藏地区包邮，新疆西藏运费每单20元 <a href="javascript:;">详情>></a> </dd>
+                        </dl>
+                        <dl class="y_number">
+                            <dt>购买数量 ：</dt>
+                            <dd><a href="javascript:;" class="y_remov">-</a><input type="text" value="1" class="y_number_txt"><a href="javascript:;" class="y_add">+</a>&nbsp;&nbsp;件</dd>
+                        </dl>
+                        <dl class="y_purchase">
+                            <dd>
+                                <a href="javascript:;" class="tipsa"></a>
+                            </dd>
+                        </dl>
+                        <dl class="y_service">
+                            <dt>服务 ：</dt>
+                            <dd><span>由"文轩网"直接销售和发货，并提供售后服务</span><br>
+                                <a href="javascript:;">正品低价</a><span class="cut">|</span><a href="javascript:;">闪电发货</a><span class="cut">|</span><a href="javascript:;">货到付款</a><span class="cut">|</span><a href="javascript:;">高效退换货</a>
+                            </dd>
+                        </dl>
+                    </div> -->
+
+                </div>
+
+            </div>
+            <!-- 图文详情-->
+            <div class="y_main_top y_right" id='y_details'>
+                <div class="y_head ">
+                    <div class="y_head_l y_left y_head_n">
+                        <a href="javascript:;" class="select">商品介绍</a>
+                        <a href="#k_comment">商品评论<span class="lines">(0条)</span></a>
+                    </div>
+                    <div class="y_head_r y_right">
+                        <!-- <strong>¥9.90</strong> <span>（2.49折）</span>
+                        <a href="javascript:;" class="y_right spirit"></a> -->
+                    </div>
+                </div>
+                <div class="fast">
+                    <span class="arrive">快速直达</span>
+                    <a href="#catalog">目录</a>
+                    <a href="#author">作者简介</a>
+                    <a href="#catalog">读者对象</a>
+                    <a href="#synopsis">内容简介</a>
+                    <a href="#brilliant">精彩内容</a>
+                </div>
+                <div class="y_content">
+                    <ul>
+                        <li class="y_content_author">
+                            <!-- <span>作者:</span><a href="javascript:;" class="select">夏林</a> -->
+                        </li>
+                        <li><span>开本:</span>16开</li>
+                        <li><span>字数:</span>170000</li>
+                        <li><span>版次:</span>1</li>
+                    </ul>
+                    <ul>
+                        <li class="y_content_press">
+                            <!-- <span>出版社:</span><a href="javascript:;" class="select">中国纺织出版社</a> -->
+                        </li>
+                        <li><span>页 数:</span>375</li>
+                        <li><span>装 帧:</span>平装</li>
+                        <li><span>印 次:</span>5</li>
+                    </ul>
+                    <ul>
+                        <li><span>出版时间:</span>2019-05-01</li>
+                        <li><span>印刷时间:</span>2019-05-01</li>
+                        <li><span>语 种:</span>中文</li>
+                        <li><span>I S B W:</span>103025427</li>
+                    </ul>
+                </div>
+                <div class="y_navBnner">
+                    <a href="###"><img src="http://static.winxuancdn.com/topic/subject/201706/sqyd/xxjf/323-150.jpg"
+                            alt=""></a>
+                    <a href="###"><img src="http://static.winxuancdn.com/topic/subject/201706/sqyd/xxjf/323-150.jpg"
+                            alt=""></a>
+                    <a href="###"><img src="http://static.winxuancdn.com/topic/subject/201706/sqyd/xxjf/323-150.jpg"
+                            alt=""></a>
+                </div>
+                <!-- 图书详情页图片 -->
+                <div class="y_navBnner">
+                    <!-- <img src="http://img3.winxuancdn.com/3981/1201633981_43_0_original_790x4379.jpg?1557899780886" alt=""> -->
+                </div>
+                <!-- 目录 -->
+                <div class="y_head " id="catalog">
+                    <div class="y_head_l ">
+                        <a href="javascript:;" class="select etc">目录</a>
+                    </div>
+                    <div class="y_bottom">
+                        <!-- <p>第一章墨菲定律：小概率事件中，隐藏着不可忽视的人性</p>
+                        <p>1.墨菲定律：越怕出问题，问题就越可能发生002</p>
+                        <p>2.帕金森定律：庸人占据高位时，组织就会陷入恶性循环006</p>
+                        <p>3.框架效应：表达方式不同，结果可能天差地别010</p>
+                        <p>4.安慰剂效应：信任和安心，和真正的治疗一样重要014</p>
+                        <p>5.路西法效应：极端环境之下，好人也会变成恶魔017</p>
+                        <p>第二章刺猬法则：最好的相处之道，是彼此保持适度距离</p>
+                        <p>1.刺猬法则：人人都需要一个适当的心理空间022</p>
+                        <p>2.沉没成本效应：错误既然无法挽回，就别再为之耿耿于怀026</p>
+                        <p>4.安慰剂效应：信任和安心，和真正的治疗一样重要014</p>
+                        <p>5.路西法效应：极端环境之下，好人也会变成恶魔017</p>
+                        <p>第二章刺猬法则：最好的相处之道，是彼此保持适度距离</p>
+                        <p>1.刺猬法则：人人都需要一个适当的心理空间022</p>
+                        <p>2.沉没成本效应：错误既然无法挽回，就别再为之耿耿于怀026</p>
+                        <a href="###" class="y_hiden_all">隐藏全部>></a> -->
+                    </div>
+                    <a href="###" class="y_show_all">显示全部>></a>
+                </div>
+                <!-- 作者简介 -->
+                <div class="y_head " id="author">
+                    <div class="y_head_l ">
+                        <a href="javascript:;" class="select etc">作者简介</a>
+                    </div>
+                    <div class="y_bottom">
+                        鲁睿元，西安交通大学硕士在读，现研究深度学习与计算机视觉方向。在届百度菁英班荣获名；带队代表西安交通大学参加首届浦发百度智慧金融极客挑战赛中，荣获全国第6名。目前已经在多家博客网站发表多篇深度学习以及算法相关文章，深受读者喜爱。
+                        祝继华，西安交通大学软件学院副教授、博士生导师，研究方向为机器学习和计算机视觉。
+                    </div>
+                </div>
+                <!-- 主编推荐 -->
+                <div class="y_head " id="editing">
+                    <div class="y_head_l ">
+                        <a href="javascript:;" class="select etc">主编推荐</a>
+                    </div>
+                    <div class="y_bottom "></div>
+                </div>
+                <!-- 内容简介 -->
+                <div class="y_head " id="synopsis">
+                    <div class="y_head_l ">
+                        <a href="javascript:;" class="select etc">内容简介</a>
+                    </div>
+                    <div class="y_bottom">
+                        <!-- 从它被发现的天起，“墨菲定律”就一直让世人心神不宁！<br> 为什么—— 越是熟悉的就越有好感？ 生活时刻都在变化，却总有人视而不见？<br> 很初受到的刺激越强，以后的反应就越迟钝？
+                        <br> 是心理幻觉，还是世界的本来面目？ <br> 如果你担心某种情况发生，它就更有可能发生？ <br> 一本揭示人类潜在种种幽微心理的心理学通俗读物 <br> -->
+                    </div>
+                </div>
+
+                <!-- 价格说明 -->
+                <div class="y_head " id="price">
+                    <div class="y_head_l ">
+                        <a href="javascript:;" class="select etc">价格说明</a>
+                    </div>
+                    <div class="y_bottom ">
+                        定价：为出版社全国统一定价；<br> 文轩价：为商品的销售价，是您最终决定是否购买商品的依据；受系统缓存影响，最终价格以商品放入购物车后显示的价格为准；
+                    </div>
+                </div>
+                <!-- 广告新发 -->
+                <div class="y_head " id="advertisement">
+                    <div class="y_head_l ">
+                        <a href="javascript:;" class="select etc">关于广告法新说明</a>
+                    </div>
+                    <div class="y_bottom ">
+                        新广告法规定所有页面信息中不得出现绝对化用词和功能性用词。<br>
+                        本店非常支持新广告法，但为了不影响消费者正常购买，页面明显区域本店已在排查修改，对于不明显区域也将会逐步排查并修改，我们此郑重声明：本店所有页面上的绝对化用词与功能性用词在此声明全部失效，不作为赔付理由。涉及“教育部声明”中的商品，均不代表教育部指定、推荐的具体版本，仅代表该商品的内容为指定、推荐书目。因极限用词引起的任何形式的商品赔付，本店不接收且不妥协。希望消费者理解并欢迎联系客服帮助完善，也请职业打假人士高抬贵手。
+
+                    </div>
+                </div>
+                <!-- 评论展示区 -->
+                <div class="k_discuss">
+                    <div class="k_discuss_top">
+                        <a class="k_tab_item" href="#y_details">商品介绍</a>
+                        <a class="k_tab_item k_added" href="#k_comment">商品评论</a>
+                        <a href="javascript:;" class="k_count">（0条）</a>
+                    </div>
+                    <div class="k_discuss_content">
+                        <div class="k_cont_left">
+                            <div>用户评分：</div>
+                            <b>0</b>星
+                            <div>共0人参与</div>
+                        </div>
+                        <ul class="k_cont_star">
+                            <li class="k_star_item">
+                                <span class="k_starbg k_starbg1"></span>
+                                <span class="k_starline"></span>
+                                <span>0人</span>
+                            </li>
+                            <li class="k_star_item">
+                                <span class="k_starbg k_starbg2"></span>
+                                <span class="k_starline"></span>
+                                <span>0人</span>
+                            </li>
+                            <li class="k_star_item">
+                                <span class="k_starbg k_starbg3"></span>
+                                <span class="k_starline"></span>
+                                <span>0人</span>
+                            </li>
+                            <li class="k_star_item">
+                                <span class="k_starbg k_starbg4"></span>
+                                <span class="k_starline"></span>
+                                <span>0人</span>
+                            </li>
+                            <li class="k_star_item">
+                                <span class="k_starbg k_starbg5"></span>
+                                <span class="k_starline"></span>
+                                <span>0人</span>
+                            </li>
+                        </ul>
+                        <div class="k_my_discuss">
+                            <span>我来评分：</span>
+                            <div class="k_mystar">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <i></i>
+                            </div>
+                            <a href="javascript:;" class="k_write">我来写评论</a>
+                            <span class="k_text">写点评</span>
+                            <a href="javascript:;" class="k_sorce">送积分>></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 评论类型 -->
+                <div class="k_discuss_type" id="k_comment">
+                    <div class="k_discuss_type_top">
+                        <span class="k_tab_item k_added">全部评论</span>
+                        <span class="k_tab_item">好评</span>
+                        <a href="javascript:;" class="k_count" style="left: 225px;">（0条）</a>
+                        <span class="k_tab_item">中评</span>
+                        <a href="javascript:;" class="k_count" style="left: 380px;">（0条）</a>
+                        <span class="k_tab_item">差评</span>
+                        <a href="javascript:;" class="k_count" style="left: 535px;">（0条）</a>
+                        <span class="k_tab_item">天猫评论</span>
+                    </div>
+                    <div class="k_type_content">
+                        <p style="display: block;">暂无评论,想成为第一个评论员吗？有2倍积分哦~</p>
+                        <p>暂无评论</p>
+                        <p>暂无评论</p>
+                        <p>暂无评论</p>
+                        <p>暂时还没有评论哦~</p>
+                    </div>
+                </div>
+                <!-- 商品信息 -->
+                <div class="k_goodinfo">
+                    <div class="k_good_top">
+                        <a class="k_tab_item" href="#y_details">商品介绍</a>
+                        <a class="k_tab_item" href="#k_comment">商品评论</a>
+                        <a href="javascript:;" class="k_count">（0条）</a>
+                    </div>
+                    <ul class="k_good_content">
+                        <li class="k_good_item">
+                            <span>正品</span>
+                            <p>文轩网，新华文轩旗下出版物网络销售平台，80万种正版图书，提供电子发票，请放心购买。</p>
+                        </li>
+                        <li class="k_good_item">
+                            <span>运费</span>
+                            <p style="width: 188px;">文轩网图书/音像大陆非新疆西藏地区包邮，新疆西藏地区每单运费20元，港澳台和其它国家运费请参见购物车运费提示。</p>
+                        </li>
+                        <li class="k_good_item">
+                            <span>配送</span>
+                            <p style="width: 188px;">文轩网提供快递、货运两种方式发货，均送货上门。</p>
+                        </li>
+                        <li class="k_good_ask">
+                            <p>没有解决您的问题？</p>
+                            <button>我要咨询</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 提示 -->
+    <div class="tips">
+        <div class="tip_cont">
+            <p class="tip_title"><em>提示</em> <span class="y_right close"></span></p>
+            <p class="tip_add">商品已经加入购物车！</p>
+            <div class="tip_buts">
+                <a href="./b_car.html" class="tip_mycart">去购物车并结算</a>
+                <a href="./c_head.html" class="tip_purchase">继续购物</a>
+            </div>
+        </div>
+    </div>
+    <!-- 点击加入收藏 -->
+    <div class="y_collection">
+        <div class="y_colle_top">
+            加入收藏
+            <a href="javascript:;" class="y_right y_colle_cancel">X</a>
+        </div>
+        <div class="y_colle_bottom">
+            <div class="y_answer">
+                <p>已加入收藏</p>
+                <a href="javascript:;">查看我的收藏</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- 返回顶部 -->
+    <a href="#tops" class="top">
+        <img src="https://static.winxuancdn.com/images/returntop/topout.jpg" alt="">
+    </a>
+    <!-- 底部 -->
+    <div class="c_foot">
+        <div class="c_foot_unit">
+            <dl class="c_foot_unit_list">
+                <dt>新手入门</dt>
+                <dd>
+                    <a href="#">购物保障</a>
+                </dd>
+                <dd>
+                    <a href="#">购物流程</a>
+                </dd>
+                <dd>
+                    <a href="#">常见问题</a>
+                </dd>
+                <dd>
+                    <a href="#">联系客服</a>
+                </dd>
+            </dl>
+            <dl class="c_foot_unit_list">
+                <dt>配送服务</dt>
+                <dd>
+                    <a href="#">货到付款区域查询</a>
+                </dd>
+                <dd>
+                    <a href="#">配送范围和时间</a>
+                </dd>
+                <dd>
+                    <a href="#">配送收费标准</a>
+                </dd>
+                <dd>
+                    <a href="#">快递查询入口</a>
+                </dd>
+                <dd>
+                    <a href="#">验货与签收</a>
+                </dd>
+            </dl>
+            <dl class="c_foot_unit_list">
+                <dt>支付方式</dt>
+                <dd>
+                    <a href="#">货到付款</a>
+                </dd>
+                <dd>
+                    <a href="#">银行转账/汇款</a>
+                </dd>
+                <dd>
+                    <a href="#">在线支付</a>
+                </dd>
+                <dd>
+                    <a href="#">其他支付方式</a>
+                </dd>
+                <dd>
+                    <a href="#">交易安全防诈骗</a>
+                </dd>
+            </dl>
+            <dl class="c_foot_unit_list">
+                <dt>售后服务</dt>
+                <dd>
+                    <a href="#">退换货规则</a>
+                </dd>
+                <dd>
+                    <a href="#">如何申请售后服务</a>
+                </dd>
+                <dd>
+                    <a href="#">退款及提现</a>
+                </dd>
+            </dl>
+            <dl class="c_foot_unit_list">
+                <dt>我的订单</dt>
+                <dd>
+                    <a href="#">下单演示</a>
+                </dd>
+                <dd>
+                    <a href="#">订单状态/查询</a>
+                </dd>
+                <dd>
+                    <a href="#">订单取消</a>
+                </dd>
+                <dd>
+                    <a href="#">发票制度</a>
+                </dd>
+                <dd>
+                    <a href="#">积分规则</a>
+                </dd>
+            </dl>
+            <dl class="c_foot_unit_list">
+                <dt>文轩服务</dt>
+                <dd>
+                    <a href="#">礼券(优惠券)</a>
+                </dd>
+                <dd>
+                    <a href="#">文轩购书卡</a>
+                </dd>
+                <dd>
+                    <a href="#">文轩好书推荐</a>
+                </dd>
+                <dd>
+                    <a href="#">交易条款</a>
+                </dd>
+            </dl>
+            <dl class="c_foot_list">
+                <dt>电子书阅读器</dt>
+                <dd>
+                    <a href="#" class="c_foot_unit1">Android</a>
+                </dd>
+                <dd>
+                    <a href="#" class="c_foot_unit2">iPad</a>
+                </dd>
+                <dd>
+                    <a href="#" class="c_foot_unit3">iPhone</a>
+                </dd>
+                <dd>
+                    <a href="#" class="c_foot_unit4">PC阅读器</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="c_foot_home">
+            <div class="c_foot_top">
+                <div class="c_foot_top-1">
+                    <img src="./img/login_footer1.png" alt="">
+                    <div>
+                        正品保障<br> 假一赔五
+                    </div>
+                </div>
+                <div class="c_foot_top-1">
+                    <img src="./img/login_footer2.png" alt="">
+                    <div>
+                        一网打尽<br> 更多优惠
+                    </div>
+                </div>
+                <div class="c_foot_top-1">
+                    <img src="./img/login_footer3.png" alt="">
+                    <div>
+                        800城市货到付款<br> 北上广深次日达
+                    </div>
+                </div>
+                <div class="c_foot_top-1">
+                    <img src="./img/login_footer4.png" alt="">
+                    <div>
+                        电子发票<br> 报销无忧
+                    </div>
+                </div>
+            </div>
+            <div class="c_foot_bottom">
+                <p class="winshare_info">
+                    <a href="#">关于文轩</a>|
+                    <a href="#">联系文轩</a>|
+                    <a href="#">加入文轩</a>|
+                    <a href="#">合作伙伴</a>
+                </p>
+                <p class="putOnrecords">
+                    川公网安备 51010602000457号 丨 出版物经营许可证 丨 蜀ICP备11014037号<br> Copyright(C) 文轩网2000-2020 版权所有 丨
+                    客服热线：400-072-0808
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/c_content.js"></script>
+</body>
+
+</html>

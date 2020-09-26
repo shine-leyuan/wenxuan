@@ -1,0 +1,320 @@
+.container {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 首页横幅标题 */
+
+.js_banner {
+    width: 100%;
+    height: 80px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+
+/* 横幅标题右箭头 */
+
+.js_banner_img {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 11px;
+    transform: translateY(2px);
+}
+
+
+/* 精选部分 */
+
+
+/* 精选部分外部容器 */
+
+.js_good {
+    width: 100%;
+    position: relative;
+}
+
+
+/* 精选 hover切换 */
+
+.js_tabchange {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 15%;
+    transform: translateY(-100%);
+    /* background-color: #ccc; */
+    width: 1000px;
+    height: 60px;
+}
+
+.js_tabchange .js_tab {
+    display: block;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+    color: #000000;
+    font-size: 15px;
+}
+
+.js_tabchange .js_tab_active {
+    border-bottom: 3px solid #e4393c !important;
+    color: #e4393c !important;
+    font-weight: 700 !important;
+}
+
+
+/* 精选  内容*/
+
+.js_good_ctt {
+    width: 100%;
+    display: none;
+}
+
+.js_good_ctt_block {
+    display: block;
+}
+
+
+/* 精选 二级导航 */
+
+.js_good_nav {
+    padding: 20px 0;
+    border-top: 1px solid #e2e2e2;
+}
+
+.js_good_nav a {
+    font-size: 13px;
+    color: #666666;
+    text-decoration: none;
+    padding: 0 14px;
+    border-right: 1px solid #e8e8e8;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.js_good_nav a:hover {
+    color: #e4393c;
+}
+
+.js_good_nav a:last-child {
+    border: none;
+}
+
+
+/* 精选 书籍部分 */
+
+.js_good_books {
+    width: 1225px;
+    /* background-color: #dddddd; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.js_good_book {
+    width: 230px;
+    height: 300px;
+    padding: 24px;
+    box-sizing: border-box;
+    background: #ffffff;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+}
+
+.js_good_book:hover {
+    border: 1px solid #e4393c;
+}
+
+.js_good_book img {
+    width: 146px;
+    height: 146px;
+    display: block;
+    margin: 0 auto;
+}
+
+.js_good_book:hover img {
+    filter: brightness(108%);
+}
+
+.js_good_book a {
+    margin: 20px 0 5px;
+    display: block;
+    color: #666666;
+    text-decoration: none;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* text-align: center; */
+}
+
+.js_good_book a:hover {
+    color: #e4393c;
+}
+
+.js_good_book .js_author {
+    color: #999999;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* text-align: center; */
+    margin-bottom: 26px;
+}
+
+.js_price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.js_price .js_new {
+    color: #e4393c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.js_price .js_old {
+    color: #888888;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+
+/* 文轩聚焦 */
+
+.js_author {
+    position: relative;
+}
+
+.js_banner_desc {
+    font-size: 14px;
+    color: #999999;
+    margin-left: 16px;
+    padding-top: 5px;
+    font-weight: normal;
+}
+
+.js_focus_books {
+    width: 1225px;
+    /* background-color: #dddddd; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.js_tabchange2 {
+    /* position: absolute; */
+    display: flex;
+    /* top: 0; */
+    /* left: 15%; */
+    /* transform: translateY(-100%); */
+    /* background-color: #ccc; */
+    width: 1000px;
+    height: 60px;
+}
+
+.js_tabchange2 .js_tab2 {
+    display: block;
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+    color: #000000;
+    font-size: 15px;
+}
+
+.js_tabchange2 .js_tab_active {
+    border-bottom: 3px solid #e4393c !important;
+    color: #e4393c !important;
+    font-weight: 700 !important;
+}
+
+.js_author_ctt {
+    display: none;
+}
+
+.js_author_ctt_block {
+    display: block;
+}
+
+.js_author_up {
+    display: flex;
+    width: 1000px;
+    height: 203px;
+    box-sizing: border-box;
+    padding: 24px;
+}
+
+.js_author_down {
+    display: flex;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.js_author_up .js_introduce {
+    padding-left: 24px;
+}
+
+.js_introduce .js_author_title {
+    margin-bottom: 16px;
+}
+
+.js_introduce .js_author_title a {
+    font-size: 20px;
+    color: #666666;
+}
+
+.js_introduce .js_author_desc {
+    font-size: 14px;
+    color: #888888;
+    line-height: 1.5;
+}
+
+.js_author_book {
+    width: 200px;
+    height: 245px;
+    padding: 20px 20px 31px 16px;
+    box-sizing: border-box;
+    background: #ffffff;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+}
+
+.js_author_book img {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+}
+
+.js_author_book a {
+    margin: 20px 0 5px;
+    height: 40px;
+    display: block;
+    color: #666666;
+    text-decoration: none;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* text-align: center; */
+}
+
+.js_author_book a:hover {
+    color: #e4393c;
+}

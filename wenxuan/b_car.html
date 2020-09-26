@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="shortcut icon" href="https://pic.liesio.com/2020/09/16/e7c4e908c32e8.ico">
+    <link rel="bookmark" href="https://pic.liesio.com/2020/09/16/e7c4e908c32e8.ico">
+    <link rel="stylesheet" href="css/b_car.css">
+    <script src="js/b_car.js"></script>
+</head>
+<body>
+    <div class="b_car">
+        <div class="b_car_top">
+            <a href="#"><img src="https://static.winxuancdn.com/css2/images/logo.png" class="b_car_top_img"></a>
+            <div class="b_car_service">联系客服</div>
+        </div>
+        <div class="b_plan">
+            <div class="b_plan_img"></div>
+        </div>
+        <div class="b_car_content">
+            <!-- 如果购物车为空显示的内容 -->
+            <div class="b_car_empty">
+                <p class="b_car_follow">您的购物车是空的，赶紧去</p>
+                <span class="b_car_follow_blue">❤老客户回馈，积分换礼券，购书更实惠</span>
+                <span class="b_car_follow">看看吧</span>
+                <p class="b_car_follow">您也可以从<span class="b_car_follow_red">我的收藏</span>中取出商品</p>
+            </div>
+
+            <!-- 如果购物车不为空显示的内容 -->
+            <div class="b_car_table_list">
+                <div class="b_car_thead">
+                    <div class="b_product">商品</div>
+                    <div class="b_price">文轩价</div>
+                    <div class="b_credits">积分</div>
+                    <div class="b_privilege">优惠</div>
+                    <div class="b_quantity">数量</div>
+                    <div class="b_operation">操作</div>
+                </div>
+                <div class="b_check_all">
+                    <input type="checkbox" class="checkall">
+                    <span>全选</span>
+                </div>
+                <div class="b_sep"></div>
+                <ul class="b_goods_list">
+
+                    <!-- 商品列表 -->
+                    <!-- <li class="b_goods-item">
+                        <div class="b_checkbox">
+                            <input type="checkbox"  class="b_car_ipt">
+                        </div>
+                        <div class="b_product_item">
+                            <img src="https://img2.winxuancdn.com/4818/1202154818_49_2_original_800x800.jpg?1598096306703&imageMogr2/thumbnail/200x200" class="b_product_img">
+                            <p class="b_product_title">快乐读书吧 2年级下</p>
+                        </div>
+                        <div class="b_price"><span>¥41.4</span></div>
+                        <div class="b_credits"><span>414</span></div>
+                        <div class="b_privilege"></div>
+                        <div class="b_quantity">
+                            <a href="#" class="b_car_less"></a>
+                            <input type="text" class="b_car_price_ipt" value="1">
+                            <a href="#" class="b_car_add"></a>
+                        </div>
+                        <div class="b_operation"><span class="b_operation_text">删除</span></div>
+                    </li> -->
+
+                </ul>
+                <div class="b_car_summary">
+                    <div class="b_car_brief">
+                        <div class="b_car_brief_top">
+                            <div class="b_product_num"><span class="b_car_num">6</span>件商品</div>
+                            <div class="b_car_total">总计</div>
+                            <div class="b_car_total_num">¥222</div>
+                        </div>
+                        <div class="b_car_brief_bottom">
+                            <div class="b_preferential">优惠</div>
+                            <div class="b_preferential_num">-¥0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="b_car_count">
+                    <div class="b_car_balance">
+                        <span>合计(不含运费)</span>
+                        <div class="b_car_price">¥222</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 提示框 -->
+            <div class="b_car_prompt">
+                <div class="b_wrap">
+                    <div class="b_prompt_title">
+                        <span>确认删除</span>
+                        <a href="javascript:;" class="b_car_cancel"></a>
+                    </div>
+                    <div class="b_car_msg">
+                        <p>从购物车中删除此商品？</p>
+                    </div>
+                    <div class="b_car_button">
+                        <button class="b_confirm">确认</button>
+                        <button class="b_canel">取消</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 提示框 -->
+            <div class="b_car_prompt1">
+                    <div class="b_prompt_title1">
+                        <span>结算成功</span>
+                    </div>
+                    <div class="b_car_msg1">
+                        <p><span class="b_car_num1">5</span>秒后跳转到主页</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 按钮组 -->
+            <div class="b_button_group">
+                <a href="c_head.html"><span class="b_car_continue">继续购物</span></a>
+                <span class="b_settlement">结算</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

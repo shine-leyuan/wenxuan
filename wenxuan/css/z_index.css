@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 头部 */
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* 中心 */
+.z_content{
+    width: 1210px;
+    margin: 0 auto;
+}
+.z_img{
+    margin-top: 32px;
+    width: 1210px;
+}
+/* .z_card-list{
+    height: 55px;
+} */
+.z_card_a{
+    height: 25px;
+    line-height: 25px;
+    margin: 30px 0;
+    border-left: 8px solid #ec3838;
+}
+/* .z_card-left{
+    height: 25px;
+    width: 8px;
+    background: #ec3838;
+    display: inline-block;
+} */
+.z_card{
+    padding-left: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.z_money{
+    color: #999;
+    margin-left: 24px;
+    font-size: 13px;
+}
+.z_del{
+    float: right;
+    color: #999;
+    font-size: 13px;
+}
+.z_del s{
+    text-decoration: none;
+    color: #00e;
+}
+.z_card-search{
+    height: 276px;
+    background: #f5f5f5;
+}
+.z_searchbox{
+    float: right;
+    width: 550px;
+    padding-top: 31px;
+}
+.z_input{
+    display: block;
+    width: 394px;
+    height: 38px;
+    background: #fff;
+    border: 1px solid #999;
+    padding:0 2px ;
+    margin-bottom: 25px;
+    outline: none;
+}
+.z_input-search{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ec3838;
+    font-size: 18px;
+    border: 0 none;
+    cursor: pointer;
+    margin-bottom: 25px;
+    outline: none;
+    color: #fff;
+}
+.z_input-search::placeholder{
+    color: #fff;
+}
+.z_search{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+.z_card-img{
+   width: 1210px;
+}
+.z_question{
+    margin-bottom: 20px;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 56px;
+    font-size: 20px;
+    color: #666;
+}
+.z_answer{
+    color: #666;
+    padding-left: 23px;
+    font-size: 20px;
+}
+.z_main-show{
+    background: #ececec;
+}
+.z_show{
+    width: 1210px;
+    margin: 0 auto;
+    height: 83px;
+}
+.z_main-foot{
+    color: #666;
+    font-size: 12px;
+    padding: 36px 0;
+    text-align: center;
+}
+.z_base-nav{
+    height: 18px;
+    margin-bottom: 5px;
+}
+.z_base-nav a,.z_from{
+    color: #666;
+    padding: 0 8px;
+    text-decoration: none;
+}
+.z_backtop{
+    position: fixed;
+    bottom: 20px;
+    left: 1566.5px;
+    display: none;
+}
+.z_backtop.block{
+    display: block;
+}

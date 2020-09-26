@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.login-head{
+    width: 100%;
+    height: 88px;
+}
+.login-head-content{
+    width: 1195px;
+    height: 88px;
+    margin: 0 auto;
+    position: relative;
+}
+.login-head-img{
+    width: 288px;
+    height: 44px;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+}
+.login-content{
+    width: 100%;
+    height: 592px;
+    background: #f74660;
+    margin-bottom: 8px;
+}
+.login-content-con{
+    width: 1195px;
+    height: 592px;
+    margin: 0 auto;
+    background: url(https://static.winxuancdn.com/frontstatic/pc/dist/img/login_bg.png) no-repeat;
+    position: relative;
+}
+.login-content-right{
+    width: 366px;
+    padding: 24px;
+    background: #fff;
+    border-radius: 2px;
+    position: absolute;
+    top: 71px;
+    right: 68px;
+    box-sizing: border-box;
+}
+.login-tab .psw-login{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-right: 24px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #333;
+    padding-bottom: 10px;
+}
+.login-tab{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.account,.password{
+    width: 100%;
+    height: 42px;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.account{
+    margin-bottom: 0;
+}
+.login-icon{
+    width: 41px;
+    height: 40px;
+    border-right: 1px solid #e6e6e6;
+    line-height: 42px;
+    text-align: center;
+    background: #fafafa;
+    float: left;
+}
+.login-content-right .iconfont{
+    font-size: 20px;
+    color: #b5b7bf;
+}
+.login-content-right .ipt-user,.ipt-psw{
+    width: 264px;
+    height: 38px;
+    outline: none;
+    border: none;
+    padding-left: 8px;
+    float: left;
+    font-size: 12px;
+    
+}
+.login-content-right .show-psw{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #ccc;
+}
+.login-err{
+    height: 24px;
+    line-height: 24px;
+    margin-left: 42px;
+    font-size: 12px;
+    color: red;
+}
+.remember-psw{
+    width: 100%;
+    height: 20px;
+    color: #666;
+    margin-bottom: 22px;
+    font-size: 12px;
+}
+.rem-psw{
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.psw-right{
+    float: right;
+}
+.login-btn{
+    width: 100%;
+    height: 42px;
+    border-radius: 2px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+    background: #e5e5e5;
+    font-weight: 400;
+    cursor: pointer;
+}
+.login-content-right .reg-link{
+    font-size: 14px;
+    font-weight: 400;
+    color: #1d66b2;
+    opacity: .85;
+    text-align: right;
+    margin-top: 18px;
+    margin-bottom: 30px;
+    display: block;
+    text-decoration: none;
+}
+.login-title{
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    opacity: .5;
+}
+.login-title::before,.login-title::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 35%;
+    height: 1px;
+    background: #ddd;
+
+}
+.login-title::before{
+    left: 0;
+}
+.login-title::after{
+    right: 0;
+}
+.logo-group{
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+.login-content-right .logo-group .iconfont{
+    font-size: 36px;
+    color: #e5e5e5;
+}
+.note-login-con{
+    display: none;
+}
+.note-login-con .show-psw{
+    color: #000;
+    font-size: 14px;
+}
+.login-footer,.login-footer-top{
+    width: 100%;
+}
+.login-footer-top{
+    background: #f5f5f5;
+}
+.login-footer .login-footer-top .center{
+    width: 1195px;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+}
+.login-center-list img{
+    width: 56px;
+    height: 56px;
+    float: left;
+    margin-top: 27px;
+}
+.login-center-list .login-item{
+    border-left: 1px solid #e6e6e6;
+    padding-left: 16px;
+    margin-left: 13px;
+    color: #444;
+    font-size: 20px;
+    font-weight: 600;
+    float: left;
+    line-height: 26px;
+    margin-top: 29px;
+    text-align: center;
+}
+.login-footer-bottom{
+    text-align: center;
+    margin-top: 26px;
+}
+.login-footer-info{
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.login-footer-info a{
+    text-decoration: none;
+    color: #212529;
+    padding: 5px;
+    font-size: 14px;
+}
+.login-footer-item{
+    color: #666;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.psw-right:hover{
+    text-decoration: underline;
+}
+.reg-link:hover{
+    text-decoration: underline;
+}
+.login-content-right .logo-group .icon-weixin:hover{
+    color: #35c518;
+}
+.login-content-right .logo-group .icon-qq:hover{
+ color: #38b7ff;   
+}
+.login-content-right .logo-group .icon-weibo-copy:hover{
+    color:#e4393c;
+}
+.login-content-right .logo-group .icon-zhifubao:hover{
+    color: #00a0e9;
+}
+.login-footer-info a:hover{
+    color: #e43c3f;
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的订单</title>
+    <link rel="stylesheet" href="./css/c-head.css">
+    <link rel="stylesheet" href="./css/js_myWenxuan.css">
+    <link rel="stylesheet" href="./css/z-collect.css">
+    <link rel="shortcut icon" href="https://pic.liesio.com/2020/09/16/e7c4e908c32e8.ico">
+    <link rel="bookmark" href="https://pic.liesio.com/2020/09/16/e7c4e908c32e8.ico">
+</head>
+
+<body>
+    <div class="c_layout">
+        <header class="c_top">
+            <!-- 顶部导航 -->
+            <div class="w_top_w">
+                <div class="c_top_n c_position" id="c_top_1">
+                    <div class="c_top_nav c_content">
+                        <ul class="c_link_left">
+                            <li>欢迎光临文轩网！</li>
+                            <li>
+                                <a href="./b_login.html">请<span>&nbsp;&nbsp;登录</span></a>
+                                <a href="./b_sign-up.html">免费注册</a>
+                            </li>
+                        </ul>
+                        <ul class="c_link_right">
+                            <li class="c_li_1">
+                                <a href="./js_myWenxuan.html">
+                                    <span>我的文轩</span>
+                                    <i class="iconfont icon-jiantou"></i>
+                                </a>
+                                <div class="c_pop">
+                                    <ul class="c_pop_item">
+                                        <li class="c_item_list">
+                                            <a href="./js_myWenxuan.html">我的订单</a>
+                                        </li>
+                                        <li class="c_item_list">
+                                            <a href="./b_account.html">账号设置</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="c_li_2">
+                                <a href="./z_index.html">
+                                    <span>企业采购</span>
+                                </a>
+                            </li>
+                            <li class="c_li_3">
+                                <a href="#">
+                                    <span>客户服务</span>
+                                    <i class="iconfont icon-jiantou"></i>
+                                </a>
+                                <div class="c_pop">
+                                    <ul class="c_pop_item">
+                                        <li class="c_item_list">
+                                            <a href="./w_robat.html">在线客服</a>
+                                        </li>
+                                        <li class="c_item_list">
+                                            <a href="./y_help.html">帮助中心</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="c-li_4">
+                                <a href="#">
+                                    <span>手机文轩</span>
+                                    <i class="iconfont icon-jiantou"></i>
+                                </a>
+                                <div class="c_pop c_pop_s">
+                                    <div class="c_pop_item">
+                                        <img src="https://static.winxuancdn.com/css/v2/images/m143.jpg" alt="">
+                                        <a href="#">扫一扫&nbsp;&nbsp;文轩手机购物></a>
+                                    </div>
+                                    <div class="c_pop_item">
+                                        <img src="https://static.winxuancdn.com/css/v2/images/code2.png" alt="">
+                                        <a href="#">电子书&nbsp;&nbsp;客户端></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="w_top_wrap">
+        <div class="w_top_content">
+            <div class="w_top_logo">
+                <a href="./c_head.html">
+                    <img src="https://static.winxuancdn.com/css/v2/images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="w_top_ul">
+                <ul>
+                    <li class="w_top_item"><a href="js_myWenxuan.html">我的文轩</a></li>
+                    <li class="w_top_item"><a href="b_account.html">账号设置</a></li>
+                    <li class="w_top_item"><a href="">管理收货地址</a></li>
+                    <li class="w_top_item"><a href="">在线客服</a></li>
+                </ul>
+            </div>
+            <!-- 搜索框 -->
+            <div class="w_top_search">
+                <form method="get" class="w_top_form" action="https://search.winxuan.com/search" name="searchForm">
+                    <div class="w_top_search_wrap">
+                        <img class=""
+                            src="https://static.winxuancdn.com/cms/assets/images/winxuanhome/index/index-search-icon.png"
+                            alt="">
+                        <input class="w_top_input" type="text" autocomplete="off" name="keyword" placeholder=""
+                            data-array="活着|雪国之劫|抖音营销|">
+                        <button class="w_top_btn" type="submit"> 搜索 </button>
+                    </div>
+                </form>
+            </div>
+            <!-- 购物车 -->
+            <div class="w_top_cart">
+                <a href="#" target="_blank">
+                    <div class="w_top_cart_wrap">
+                        <b></b>
+                        <label class="w_cart">购物车</label>
+                        <span class="w_outline"></span>
+                        <span class="w_outline"></span>
+                        <span class="w_overlayout"></span>
+                        <div class="w_cart_num"> 0 </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="js_content">
+            <!-- 左边列表内容部分 -->
+            <div class="js_ctt_left">
+                <div class="js_line"></div>
+                <ul class="js_list">
+                    <li class="js_list_title">账号设置</li>
+                    <li class="js_list_item"><a href="./address.html">收货地址</a></li>
+                    <li class="js_list_item"><a href="./b_account.html">账号设置</a></li>
+                </ul>
+                <div class="js_line"></div>
+                <ul class="js_list">
+                    <li class="js_list_title">资产中心</li>
+                    <li class="js_list_item"><a href="./z_index.html">购书卡</a></li>
+                </ul>
+                <div class="js_line"></div>
+                <ul class="js_list">
+                    <li class="js_list_title">商品记录</li>
+                    <li class="js_list_item"><a href="./z_collect.html">收藏的商品</a></li>
+                </ul>
+                
+                <div class="js_line"></div>
+                <ul class="js_list">
+                    <li class="js_list_title">帮助中心</li>
+                    <li class="js_list_item"><a href="./w_robat.html">在线客服</a></li>
+                    <li class="js_list_item"><a href="./y_help.html">帮助中心</a></li>
+                </ul>
+                <div class="js_line"></div>
+            </div>
+            <!-- 右边内容部分 -->
+            <div class="js_ctt_right">
+                <!-- 我的收藏 -->
+                <div class="js_collection">
+                    <div class="js_tags">
+                        <div class="js_tag">我的收藏</div>
+                    </div>
+                    <div class="z_table-row">
+                        <div class="z_table-col1">商品信息</div>
+                        <div class="z_table-col2">文轩价</div>
+                        <div class="z_table-col3">操作</div>
+                    </div>
+                    <div class="z_table-body">
+                        <div class="z_table-operation">
+                            <input type="checkbox" id="checkAll">
+                            <label for="checkAll">全选</label>
+                            <p>共<span class="z_box"></span>条记录</p>
+                            <button>批量删除</button>
+                        </div>
+                        <div id="z_wrap">
+                            <!-- <div class="z_table2">
+                                <div class="z_table-row-body">
+                                    <div class="z_table-row1">
+                                        <input type="checkbox">
+                                    </div>
+                                    <div class="z_table-row2">
+                                        <div class="z_img-box">
+                                            <a href=""><img
+                                                    src="https://img0.winxuancdn.com/6877/1201826877_49_0_original_800x800.jpg?1555935073030&imageMogr2/thumbnail/200x200"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="z_product-info">
+                                            <a href="">幼儿学前专注力训练160题(4册)</a>
+                                            <div class="z_time">2020-09-17 19:18:53</div>
+                                        </div>
+                                    </div>
+                                    <div class="z_table-row3">
+                                        <div class="z_tab">
+                                            <div class="z_price">￥23.00</div>
+                                            <del class="z_freight">(￥51.20元)</del>
+                                        </div>
+
+                                    </div>
+                                    <div class="z_table-row4" >
+                                        <button class="z_tab3-row">删除</button>
+                                    </div>
+
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="z_more">共<span></span>条记录</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        window.onload = function () {
+            var z_wrap = document.getElementById('z_wrap');
+            var z_more = document.querySelector('.z_more span')
+            var z_box = document.querySelector('.z_box')
+            console.log(z_more);
+            console.log(z_wrap);
+            fetch('http:localhost:3000/z_show').then(response => {
+                return response.json()
+            }).then(res => {
+                console.log(res);
+                var str = '';
+                if (res.data.length > 0) {
+                    for (var i = 0; i < res.data.length; i++) {
+                        str += `   
+                    <div class="z_table2" data-q=${res.data[i].id}>
+                        <div class="z_table-row-body">
+                            <div class="z_table-row1">
+                                <input type="checkbox">
+                            </div>
+                            <div class="z_table-row2">
+                                <div class="z_img-box">
+                                    <a href=""><img src="${res.data[i].imgurl}" alt=""></a>
+                                </div>
+                                <div class="z_product-info">
+                                    <a href="">${res.data[i].title}</a>
+                                    <div class="z_time">${res.data[i].publish}</div>
+                                </div>
+                            </div>
+                            <div class="z_table-row3">
+                                <div class="z_tab">
+                                    <div class="z_price">￥${res.data[i].newprice}</div>
+                                    <del class="z_freight">(￥${res.data[i].oldprice}元)</del>
+                                </div>
+
+                            </div>
+                            <div class="z_table-row4" >
+                                <button type='button' class="z_tab3-row" data-n=${res.data[i].id} >删除</button>
+                            </div>
+                        </div>
+                            </div>
+                    `
+
+                    }
+
+
+                    z_wrap.innerHTML = str
+                    var z_tab3 = document.querySelectorAll('.z_tab3-row')
+                    const z_table2 = document.querySelectorAll('.z_table2')
+                    var z_cont;
+                    z_cont = z_table2.length
+                    z_more.innerHTML = z_cont;
+                    z_box.innerHTML = z_cont
+                    console.log(z_wrap.children);
+
+                    z_tab3.forEach((item, index) => {
+                        item.onclick = () => {
+                            const w_alls = document.getElementsByClassName('z_table2');
+                            const w_nums = w_alls[index].dataset['q'] ;
+                            console.log(index ,w_alls);
+                            console.log(w_nums);
+                            fetch(`http:localhost:3000/w_del_col?txts=${w_nums}`).then(response=>{
+                                return response.json();
+                            }).then(res=>{
+                                console.log(res);
+                            }).catch(err=>{
+                                console.log(err);
+                            })
+                            z_wrap.removeChild(z_table2[index])
+                            var z_table2s = document.querySelectorAll('.z_table2')
+                            z_cont = z_table2s.length
+
+                            z_more.innerHTML = z_cont
+                            z_box.innerHTML = z_cont
+
+                        }
+                    })
+                    var checkAll = document.getElementById('checkAll'); //全选
+                    var inputs = document.querySelectorAll('.z_table-row1 input'); //下面所有单选框
+                    console.log(inputs);
+                    checkAll.onclick = function () {
+                        if (checkAll.checked == true) {
+                            for (let i = 0; i < inputs.length; i++) {
+                                inputs[i].checked = true;
+                            }
+                        } else {
+                            for (let i = 0; i < inputs.length; i++) {
+                                inputs[i].checked = false;
+                            }
+                        }
+                    }
+                    //点击下方input按钮
+                    for (let i = 0; i < inputs.length; i++) {
+                        inputs[i].onclick = function () {
+                            for (let j = 0; j < inputs.length; j++) {
+                                if (inputs[j].checked == true) {
+                                    checkAll.checked = true;
+                                } else {
+                                    checkAll.checked = false;
+                                    break;
+                                }
+
+                            }
+                        }
+                    }
+                } else if (res.data.length == 0) {
+                    z_wrap.innerHTML = '暂无数据'
+                }
+            }).catch(err => {
+                console.log(err);
+            })
+        }
+    </script>
+
+</body>
+
+</html>

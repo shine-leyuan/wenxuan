@@ -1,0 +1,146 @@
+.js_address {
+    margin-top: 20px;
+}
+
+.js_null {
+    font-size: 12px;
+    color: #000;
+    font-weight: 600;
+}
+
+.js_null2 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#js_null3 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #e4393c;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#js_null3:hover {
+    text-decoration: none;
+    color: red;
+}
+
+#js_mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .2);
+    display: none;
+}
+
+#js_add {
+    width: 700px;
+    height: 330px;
+    background-color: #ffffff;
+    border: 2px solid #bbbbbb;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.js_add_top {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    height: 30px;
+    line-height: 30px;
+    background-color: #be0822;
+    padding: 0 0 0 10px;
+}
+
+.js_close {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(255, 255, 255, .5);
+}
+
+.js_close:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.js_add_ctt .js_title {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    margin: 0 5px;
+    text-align: right;
+    font-size: 13px;
+    color: #000;
+}
+
+.js_add_ctt .js_desc {
+    font-size: 13px;
+    color: #000;
+}
+
+.js_add_ctt input {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin: 0 4px;
+    outline: none;
+}
+
+.js_add_ctt {
+    padding: 15px 0 0 0;
+}
+
+.js_point {
+    color: red;
+    vertical-align: middle;
+}
+
+#js_ok {
+    position: absolute;
+    right: 100px;
+    width: 100px;
+    height: 25px;
+    font-size: 14px;
+    background: #b0b0b0;
+    text-align: center;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.js_add_ctt input {
+    position: relative;
+}
+
+.js_warning {
+    font-size: 13px;
+    color: #ff0000;
+    margin-left: 15px;
+    display: none;
+}
+
+#js_adderss_user table {
+    text-align: center;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+}
+
+#js_adderss_user td {
+    width: 309px;
+    padding: 0 10px;
+    border: 1px solid #bbbbbb;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.js_td1 {
+    background-color: #cccccc;
+}

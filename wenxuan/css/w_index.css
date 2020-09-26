@@ -1,0 +1,418 @@
+.w_wrap {
+  width: 1210px;
+  margin: 0 auto;
+}
+
+.w_list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+.w_item {
+  list-style-type: none;
+  flex-shrink: 0;
+  width: 19%;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  height: 280px;
+  margin: 0 6px 15px 6px;
+}
+
+.w_item:nth-child(4){
+  margin-left: 0;
+}
+
+.w_item:hover {
+  border: 1px solid #E4393C;
+}
+
+.w_item_href {
+  display: block;
+  text-decoration: none;
+}
+
+.w_item_href img {
+  width: 146px;
+  height: 146px;
+  margin-top: 24px;
+}
+
+.w_item:first-child {
+  background: url('https://static.winxuancdn.com/cms/assets/images/winxuanhome/index/home-seckill-timer-bg.png');
+}
+
+.w_item_href:hover {
+  color: #dc0014;
+  text-decoration: underline;
+}
+
+.w_good {
+  width: 146px;
+  height: 146px;
+  margin-top: 24px;
+}
+
+.w_goods_title {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(102, 102, 102, 1);
+  margin: 11px 0 17px;
+  height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 21px;
+}
+
+.w_price {
+  margin: 0 13px;
+  border: 1px solid #E4393C;
+  height: 36px;
+  line-height: 36px;
+}
+
+.w_new_price {
+  width: 60%;
+  float: left;
+  background: #E4393C;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.w_old_price {
+  width: 40%;
+  float: left;
+  color: #888;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.w_timer {
+  display: block;
+  text-decoration: none;
+  padding: 29px 24px;
+  text-align: left;
+}
+
+.w_ms_title {
+  height: 111px;
+}
+
+.w_ms_top {
+  width: 106px;
+  height: 25px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 22px;
+}
+
+.w_ms_sale {
+  width: 79px;
+  height: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFBCBC;
+  line-height: 22px;
+}
+
+.w_end_time {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 15px;
+}
+
+.w_ms_point {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.w_ms_more {
+  color: #FFBCBC;
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+.w_ms_hours,
+.w_ms_min,
+.w_ms_sec {
+  vertical-align: middle;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background: rgba(86, 20, 26, 1);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 38px;
+}
+
+/* 手风琴开始 */
+
+.w_mod {
+  width: 1210px;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.w_mod_list {
+  width: 202px;
+  height: 224px;
+  background: rgba(255, 255, 255, 1);
+  padding: 15px 20px;
+  cursor: pointer;
+  box-shadow: -5px 0 16px #eee;
+  transition: all .4s;
+  position: relative;
+}
+
+.w_mod_list.active {
+  width: 400px;
+  transition: all .4s;
+  background: url(https://static.winxuancdn.com/cms/assets/images/winxuanhome/index/mod-product-promotion-list-bg.png);
+}
+
+.w_mod_list.active .w_mod_img1 {
+  display: block;
+}
+
+.w_mod_list.active .w_mod_img2 {
+  display: inline-block;
+  outline: 0;
+  position: absolute;
+  top: 70px;
+  right: 40px;
+}
+
+.w_mod_list.active .w_mod_top {
+  font-size: 28px;
+
+}
+
+.w_mod_top {
+  font-size: 20px;
+  color: #D52C27;
+  font-weight: 600;
+  height: 29px;
+  line-height: 26px;
+}
+
+.w_mod_desc {
+  font-size: 14px;
+  color: #666;
+  height: 20px;
+  line-height: 20px;
+}
+
+.w_mod_title {
+  height: 70px;
+}
+
+.w_mod_list>img {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  display: block;
+}
+
+.w_mod_img1 {
+  width: 96px;
+  height: 38px;
+  border-radius: 19px;
+  display: none;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 12px;
+}
+
+/* 手风琴结束 */
+
+/* banner上的菜单开始 */
+.w_banner {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.w_banner_wrap {
+  width: 1210px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.w_banner_menu_none {
+  width: 1002px;
+  display: none;
+}
+
+.w_banner_menu_wrap {
+  width: 208px;
+  position: absolute;
+  left: 0;
+  z-index: 100;
+  background: rgba(255, 253, 252, .9);
+}
+
+.w_banner_menu {
+  border-top: 0 none;
+  min-height: 480px;
+}
+
+.w_banner_item {
+  zoom: 1;
+  margin: auto 0;
+  padding: 5px 6px;
+  border: 2px solid rgba(255, 253, 252, 0);
+}
+
+.w_banner-title {
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #323232;
+  font-weight: 600;
+}
+
+.w_banner-title span {
+  font-weight: 600;
+}
+
+.w_banner_item dd {
+  height: 20px;
+  line-height: 20px;
+  float: left;
+}
+
+.w_banner_item dd a {
+  color: #666;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+.w_pop-box {
+  width: 834px;
+  min-height: 451px;
+  padding: 13px 32px;
+  position: absolute;
+  left: 207px;
+  top: 0;
+  border: 2px solid #E4393C;
+  z-index: 9;
+  background: #FEFCFD;
+  display: none;
+}
+
+.w_pop-box li {
+  float: left;
+  padding: 13px 0;
+}
+
+.w_left-title {
+  display: inline-block;
+  width: 116px;
+}
+
+.w_banner_item b,
+.w_right-content b {
+  width: 1px;
+  height: 12px;
+  margin: 0 8px;
+  background: #d6d6d6;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.w_right-content {
+  display: inline-block;
+  width: 678px;
+  margin-left: 23px;
+  border-bottom: 1px dashed #DAD8D9;
+}
+
+.w_right-content a {
+  font-size: 13px;
+  margin-bottom: 2px;
+  display: inline-block;
+  text-decoration: none;
+  color: #666;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.w_banner_item_hover dd a:hover {
+  color: #dc0014;
+  text-decoration: underline;
+}
+
+/* .w_banner_item_hover:hover {
+  border: 2px solid #E4393C;
+  border-right: 2px solid #FEFCFD;
+} */
+
+.w_banner_item_n:hover .w_banner-title>span {
+  color: #dc0014;
+}
+
+.w_banner_span {
+  color: #323232;
+}
+
+.w_banner_span:hover {
+  color: #dc0014;
+}
+
+/* banner上的菜单结束 */
+
+/* swiper */
+.swiper-pagination-bullet {
+  width: 24px;
+  height: 5px;
+  background: #000;
+  opacity: .2;
+  border-radius: 3px;
+  margin: 0 4.5px;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #fffbff;
+  opacity: 1;
+}
+
+/* swiper end*/
+
+/* 回到顶部 */
+#w_backTop {
+  display: block;
+  bottom: 20px;
+  left: 1570px;
+  position: fixed;
+  padding: 4px;
+  cursor: pointer;
+  width: auto;
+}
+
+/* 回到顶部结束 */
+
+/* 楼层导航开始 */
+
+/* 楼层导航结束 */

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的订单</title>
+    <link rel="stylesheet" href="./css/c-head.css">
+    <link rel="stylesheet" href="./css/js_myWenxuan.css">
+    <link rel="shortcut icon" href="https://pic.liesio.com/2020/09/16/e7c4e908c32e8.ico">
+    <link rel="bookmark" href="https://pic.liesio.com/2020/09/16/e7c4e908c32e8.ico">
+    <script src="./js/lazy.js"></script>
+    <script src="./js/plugon.js"></script>
+</head>
+
+<body>
+    <div class="c_layout">
+        <header class="c_top">
+            <!-- 顶部导航 -->
+            <div class="w_top_w">
+                <div class="c_top_n c_position" id="c_top_1">
+                    <div class="c_top_nav c_content">
+                        <ul class="c_link_left">
+                            <li>欢迎光临文轩网！</li>
+                            <li>
+                                <a href="./b_login.html">请<span>&nbsp;&nbsp;登录</span></a>
+                                <a href="./b_sign-up.html">免费注册</a>
+                            </li>
+                        </ul>
+                        <ul class="c_link_right">
+                            <li class="c_li_1">
+                                <a href="./js_myWenxuan.html">
+                                    <span>我的文轩</span>
+                                    <i class="iconfont icon-jiantou"></i>
+                                </a>
+                                <div class="c_pop">
+                                    <ul class="c_pop_item">
+                                        <li class="c_item_list">
+                                            <a href="./js_myWenxuan.html">我的订单</a>
+                                        </li>
+                                        <li class="c_item_list">
+                                            <a href="./b_account.html">账号设置</a>
+                                        </li>
+                                        <!-- <li class="c_item_list">
+                                            <a href="#">暂存款</a>
+                                        </li>
+                                        <li class="c_item_list">
+                                            <a href="#">礼券</a>
+                                        </li>
+                                        <li class="c_item_list">
+                                            <a href="#">购书卡</a>
+                                        </li> -->
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="c_li_2">
+                                <a href="./z_index.html">
+                                    <span>企业采购</span>
+                                </a>
+                            </li>
+                            <li class="c_li_3">
+                                <a href="#">
+                                    <span>客户服务</span>
+                                    <i class="iconfont icon-jiantou"></i>
+                                </a>
+                                <div class="c_pop">
+                                    <ul class="c_pop_item">
+                                        <li class="c_item_list">
+                                            <a href="./w_robat.html">在线客服</a>
+                                        </li>
+                                        <li class="c_item_list">
+                                            <a href="./y_help.html">帮助中心</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="c-li_4">
+                                <a href="#">
+                                    <span>手机文轩</span>
+                                    <i class="iconfont icon-jiantou"></i>
+                                </a>
+                                <div class="c_pop c_pop_s">
+                                    <div class="c_pop_item">
+                                        <img src="https://static.winxuancdn.com/css/v2/images/m143.jpg" alt="">
+                                        <a href="#">扫一扫&nbsp;&nbsp;文轩手机购物></a>
+                                    </div>
+                                    <div class="c_pop_item">
+                                        <img src="https://static.winxuancdn.com/css/v2/images/code2.png" alt="">
+                                        <a href="#">电子书&nbsp;&nbsp;客户端></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="w_top_wrap">
+        <div class="w_top_content">
+            <div class="w_top_logo">
+                <a href="./c_head.html">
+                    <img src="https://static.winxuancdn.com/css/v2/images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="w_top_ul">
+                <ul>
+                    <li class="w_top_item"><a href="js_myWenxuan.html">我的文轩</a></li>
+                    <li class="w_top_item"><a href="b_account.html">账号设置</a></li>
+                    <li class="w_top_item"><a href="">管理收货地址</a></li>
+                    <li class="w_top_item"><a href="">在线客服</a></li>
+                </ul>
+            </div>
+            <!-- 搜索框 -->
+            <div class="w_top_search">
+                <form method="get" class="w_top_form" action="https://search.winxuan.com/search" name="searchForm">
+                    <div class="w_top_search_wrap">
+                        <img class=""
+                            src="https://static.winxuancdn.com/cms/assets/images/winxuanhome/index/index-search-icon.png"
+                            alt="">
+                        <input class="w_top_input" type="text" autocomplete="off" name="keyword" placeholder=""
+                            data-array="活着|雪国之劫|抖音营销|">
+                        <button class="w_top_btn" type="submit"> 搜索 </button>
+                    </div>
+                </form>
+            </div>
+            <!-- 购物车 -->
+            <div class="w_top_cart">
+                <a href="#" target="_blank">
+                    <div class="w_top_cart_wrap">
+                        <b></b>
+                        <label class="w_cart">购物车</label>
+                        <span class="w_outline"></span>
+                        <span class="w_outline"></span>
+                        <span class="w_overlayout"></span>
+                        <div class="w_cart_num"> 0 </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="js_content">
+            <!-- 左边列表内容部分 -->
+            <div class="js_ctt_left">
+                <div class="js_line"></div>
+                <ul class="js_list">
+                    <li class="js_list_title">账号设置</li>
+                    <li class="js_list_item"><a href="./address.html">收货地址</a></li>
+                    <li class="js_list_item"><a href="./b_account.html">账号设置</a></li>
+                </ul>
+                <div class="js_line"></div>
+                <ul class="js_list">
+                    <li class="js_list_title">资产中心</li>
+                    <li class="js_list_item"><a href="./z_index.html">购书卡</a></li>
+                </ul>
+                <div class="js_line"></div>
+                <ul class="js_list">
+                    <li class="js_list_title">商品记录</li>
+                    <li class="js_list_item"><a href="./z_collect.html">收藏的商品</a></li>
+                </ul>
+                
+                <div class="js_line"></div>
+                <ul class="js_list">
+                    <li class="js_list_title">帮助中心</li>
+                    <li class="js_list_item"><a href="./w_robat.html">在线客服</a></li>
+                    <li class="js_list_item"><a href="./y_help.html">帮助中心</a></li>
+                </ul>
+                <div class="js_line"></div>
+            </div>
+            <!-- 右边内容部分 -->
+            <div class="js_ctt_right">
+                <!-- 头部信息 -->
+                <div class="js_head">
+                    <div class="js_head_left">
+                        <div class="js_head_img">
+                            <img src="https://static.winxuancdn.com/frontstatic/mobile/dist/img/logo.png" alt="">
+                            <div class="js_mask">
+                                <p>
+                                    <a href="https://www.winxuan.com/front/customer/account">编辑资料</a>
+                                </p>
+                            </div>
+                        </div>
+                        <p class="js_user">文轩网用户</p>
+                        <p class="js_user_desc" id="w_user_get"></p>
+                    </div>
+                    <div class="js_head_right">
+                        <ul>
+                            <li class="js_title">可用暂存款(元)<span></span></li>
+                            <li class="js_rmb">0.00</li>
+                            <li class="js_a">
+                                <a href="">明细</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="js_title">可用购书卡(张)<span></span></li>
+                            <li class="js_desc">0</li>
+                            <li class="js_a">
+                                <a href="">去绑卡</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="js_title">可用礼券<span></span></li>
+                            <li class="js_desc">0</li>
+                            <li class="js_a">
+                                <a href="">领券</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="js_title">可用积分<span></span></li>
+                            <li class="js_desc">0</li>
+                            <li class="js_a">
+                                <a href="">查看</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 最近订单 -->
+                <div class="js_recent">
+                    <div class="js_tags">
+                        <div class="js_tag">最近订单</div>
+                        <a href="https://www.winxuan.com/front/trade/query/page" class="js_more js_red">更多订单 ></a>
+                    </div>
+                    <div class="js_recent_table_header">
+                        <div class="js_detail">订单详情</div>
+                        <div class="js_name">收货人</div>
+                        <div class="js_pay">付款方式</div>
+                        <div class="js_realpay">实付款</div>
+                        <div class="js_style">订单状态</div>
+                        <div class="js_operation">操作</div>
+                    </div>
+                    <div class="js_recent_table">
+                        <div class="js_recent_null" style="display: block;">
+                            <img src="./img/null.png" alt="">
+                            <p>您买的东西太少了，这里都是空空的，快去挑选适合的商品吧！</p>
+                        </div>
+                        <!-- <div class="js_recent_table_list">
+                            <div class="js_detail">订单详情</div>
+                            <div class="js_name">收货人</div>
+                            <div class="js_pay">付款方式</div>
+                            <div class="js_realpay">实付款</div>
+                            <div class="js_style">订单状态</div>
+                            <div class="js_operation">操作</div>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- 我的收藏 -->
+                <div class="js_collection">
+                    <div class="js_tags">
+                        <div class="js_tag">我的收藏</div>
+                        <a href="https://www.winxuan.com/front/customerfavorite/page" class="js_more js_red">更多收藏 ></a>
+                    </div>
+                    <div class="js_collection_null">
+                        <img src="./img/null.png" alt="">
+                        <p>您买的东西太少了，这里都是空空的，快去挑选适合的商品吧！</p>
+                    </div>
+                    <div class="js_good_books">
+                        <!-- <div class="js_good_book">
+                            <img src="https://img2.winxuancdn.com/3454/1201703454_0_2_800x800.jpg?1541161306141&imageMogr2/thumbnail/160x160" alt="">
+                            <a href="//item.winxuan.com/1201723885">窗边的小豆豆（中文简体版） </a>
+                            <div class="js_author">(日)黑柳彻子 著;(日)岩崎千弘 图;赵玉皎 译 </div>
+                            <div class="js_price">
+                                <div class="js_new">￥29.60</div>
+                                <div class="js_old">￥39.50</div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const w_user_get = document.getElementById('w_user_get');
+        window.onload = function(){
+            if(location.search ==''){
+                w_user_get.innerHTML = '请登录';
+            }else if(location.search !=''){
+                var w_user_name = location.search.split('=')[1];
+                w_user_get.innerHTML = w_user_name;
+            }
+        }
+
+        function get(url, key) {
+            return new Promise((resolve, reject) => {
+                var xhr = new XMLHttpRequest()
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        resolve(JSON.parse(xhr.responseText))
+                    } else if (xhr.readyState === 4 && xhr.status === 404) {
+                        reject()
+                    }
+                }
+                xhr.open('GET', url + (key == undefined ? '' : `?keyword=${key}`), true)
+                xhr.send()
+            })
+        }
+        //获取收藏的书籍
+        function getData2(key, el) {
+            get('http://localhost:3000/js_collection').then(res => {
+                // console.log(res)
+                el.innerHTML = ''
+                res.data.forEach(item => {
+                    el.innerHTML += `
+                <div class="js_good_book">
+                        <img class="lazyload" data-src="${item.img}" alt="">
+                        <a href="${item.title_url}">${item.title}</a>
+                        <div class="js_author">${item.author}</div>
+                        <div class="js_price">
+                            <div class="js_new">${item.new}</div>
+                            <div class="js_old">${item.old}</div>
+                        </div>
+                    </div>
+                `
+                })
+            }).catch(err => {
+                console.log(err)
+
+            })
+        }
+        var collection = document.querySelector('.js_collection .js_good_books');
+        getData2('collection', collection);
+
+
+    </script>
+</body>
+
+</html>

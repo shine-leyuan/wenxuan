@@ -1,0 +1,187 @@
+.z_table-row {
+    width: 100%;
+    display: flex;
+    height: 34px;
+    background: #f5f5f5;
+    line-height: 34px;
+    font-size: 12px;
+    color: #666;
+}
+
+.z_table-col1 {
+    width: 65%;
+}
+
+.z_table-col2 {
+    width: 15%;
+}
+
+.z_table-col3 {
+    width: 20%;
+}
+
+.z_table-col1,
+.z_table-col2,
+.z_table-col3 {
+    text-align: center;
+}
+
+.z_table-body {
+    width: 100%;
+}
+
+.z_table-operation input {
+    vertical-align: middle;
+}
+.z_table-operation label{
+    vertical-align: middle;
+}
+
+.z_table-operation {
+    font-size: 12px;
+    padding: 10px 0 10px 7px;
+    height: 47.5px;
+    box-sizing: border-box;
+}
+.z_table-operation p{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.z_table-operation button {
+    margin-left: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 2px;
+    color: #333;
+    background: #fff;
+    height: 27.5px;
+    width: 65px;
+    box-sizing: border-box;
+}
+
+.z_table2 {
+    height: 114px;
+    background: hsla(0, 0%, 100%, 0);
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+}
+
+.z_table-row-body {
+    display: flex;
+    color: #999;
+}
+
+.z_table-row1,
+.z_table-row2,
+.z_table-row3 {
+    border-right: 1px solid #efefef;
+    height: 112px;
+}
+
+.z_table-row1 {
+    width: 96px;
+    position: relative;
+}
+
+.z_table-row1 input {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.z_table-row2 {
+    width: 520px;
+    padding: 24px 14px;
+    box-sizing: border-box;
+}
+
+.z_img-box {
+    float: left;
+    width: 62px;
+    height: 62px;
+    padding: 2px 10px;
+    margin-right: 7px;
+    background: #fff;
+    border: 1px solid #efefef;
+    box-sizing: border-box;
+}
+
+.z_img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.z_product-info {
+    float: left;
+}
+
+.z_product-info a {
+    display: block;
+    font-size: 14px;
+    height: 44px;
+    color: #333;
+    text-align: center;
+}
+.z_product-info a:hover{
+    color: #de031f;
+}
+
+.z_time {
+    font-size: 12px;
+    color: #999;
+    font-weight: 400;
+}
+
+.z_table-row3 {
+    width: 132px;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+}
+
+.z_tab {
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 12px;
+}
+
+.z_price {
+    color: #de031f;
+}
+
+.z_table-row4 {
+    width: 203px;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+}
+
+.z_tab3-row {
+    width: 40px;
+    height: 25px;
+    border: none;
+    color: #999;
+    background: #fff;
+    margin: 2px 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    outline: none;
+}
+.z_more{
+    font-size: 12px;
+    padding: 10px 0 10px 7px;
+}
